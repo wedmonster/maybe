@@ -1,0 +1,16 @@
+[2012-12-13 04:06:01] [BACKUP_SHUTTLE] BACKUP REQUEST START
+[2012-12-13 04:06:01] [BACKUP_SHUTTLE] Set Backup directory : /tmp/backup/Thu
+
+[2012-12-13 04:06:01] [BACKUP_SHUTTLE] file is ready : /tmp/backup/Thu/2012-12-13.tgz
+[2012-12-13 04:06:01] [BACKUP_SHUTTLE] file is uploaded : /tmp/backup/Thu/2012-12-13.tgz
+[2012-12-13 04:06:01] [BACKUP_SHUTTLE] file is ready : /tmp/backup/Thu/backup.2012-12-13.log
+[2012-12-13 04:06:01] [BACKUP_SHUTTLE] file is uploaded : /tmp/backup/Thu/backup.2012-12-13.log
+[2012-12-13 04:06:01] [BACKUP_SHUTTLE] BACKUP REQUEST END
+[2012-12-13 04:10:58] [BACKUP_SHUTTLE] BACKUP REQUEST START
+[2012-12-13 04:10:58] [BACKUP_SHUTTLE] Set Backup directory : /tmp/backup/Thu
+
+[2012-12-13 04:10:58] [BACKUP_SHUTTLE] file is ready : /tmp/backup/Thu/2012-12-13.tgz
+[2012-12-13 04:10:58] [BACKUP_SHUTTLE] file is uploaded : /tmp/backup/Thu/2012-12-13.tgz
+[2012-12-13 04:10:58] [BACKUP_SHUTTLE] file is ready : /tmp/backup/Thu/backup.2012-12-13.log
+[2012-12-13 04:10:58] [BACKUP_SHUTTLE] file is uploaded : /tmp/backup/Thu/backup.2012-12-13.log
+[2012-12-13 04:10:58] [BACKUP_SHUTTLE] BACKUP REQUEST END

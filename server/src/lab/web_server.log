@@ -1,0 +1,738 @@
+[2012-12-07 07:07:13] [test] test
+[2012-12-07 07:08:52] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 07:08:52] [SERVER] The current pid id 6918.
+[2012-12-07 07:08:52] [ERROR] bind error.
+[2012-12-07 07:47:03] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 07:47:03] [SERVER] The current pid id 7031.
+[2012-12-07 07:47:03] [ERROR] bind error.
+[2012-12-07 07:55:43] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 07:55:43] [SERVER] The current pid id 7070.
+[2012-12-07 07:55:43] [ERROR] bind error.
+[2012-12-07 07:57:37] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 07:57:37] [SERVER] The current pid id 7096.
+[2012-12-07 07:57:37] [ERROR] bind error
+[2012-12-07 07:57:58] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 07:57:58] [SERVER] The current pid id 7106.
+[2012-12-07 07:57:58] [ERROR] bind error
+[2012-12-07 07:59:10] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 07:59:10] [SERVER] The current pid id 7126.
+[2012-12-07 07:59:10] [SERVER] This server is listening.
+[2012-12-07 08:05:51] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 08:05:51] [SERVER] The current pid id 7206.
+[2012-12-07 08:05:51] [SERVER] This server is listening.
+[2012-12-07 08:10:11] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 08:10:11] [SERVER] The current pid id 7254.
+[2012-12-07 08:10:11] [SERVER] This server is listening.
+[2012-12-07 08:44:02] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 08:44:02] [SERVER] The current pid id 7545.
+[2012-12-07 08:44:02] [SERVER] This server is listening.
+[2012-12-07 08:45:15] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 08:45:15] [SERVER] The current pid id 7572.
+[2012-12-07 08:45:15] [SERVER] This server is listening.
+[2012-12-07 08:45:51] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 08:45:51] [SERVER] The current pid id 7585.
+[2012-12-07 08:45:51] [ERROR] bind error
+[2012-12-07 08:46:10] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 08:46:10] [SERVER] The current pid id 7593.
+[2012-12-07 08:46:10] [ERROR] bind error
+[2012-12-07 08:48:00] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 08:48:00] [SERVER] The current pid id 7614.
+[2012-12-07 08:48:00] [SERVER] This server is listening.
+[2012-12-07 08:48:05] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 08:48:05] [SERVER] The current pid id 7619.
+[2012-12-07 08:48:05] [SERVER] This server is listening.
+[2012-12-07 08:49:02] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 08:49:02] [SERVER] The current pid id 7644.
+[2012-12-07 08:49:02] [SERVER] This server is listening.
+[2012-12-07 08:50:23] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 08:50:23] [SERVER] The current pid id 7667.
+[2012-12-07 08:50:23] [SERVER] This server is listening.
+[2012-12-07 08:51:12] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 08:51:12] [SERVER] The current pid id 7694.
+[2012-12-07 08:51:12] [ERROR] bind error
+[2012-12-07 08:51:36] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 08:51:36] [SERVER] The current pid id 7709.
+[2012-12-07 08:51:36] [ERROR] bind error
+[2012-12-07 08:51:51] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 08:51:51] [SERVER] The current pid id 7716.
+[2012-12-07 08:51:51] [SERVER] This server is listening.
+[2012-12-07 08:52:09] [ERROR] read error.
+[2012-12-07 08:54:11] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 08:54:11] [SERVER] The current pid id 7751.
+[2012-12-07 08:54:11] [SERVER] This server is listening.
+[2012-12-07 08:54:53] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 08:54:53] [SERVER] The current pid id 7776.
+[2012-12-07 08:54:53] [ERROR] bind error
+[2012-12-07 08:55:02] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 08:55:02] [SERVER] The current pid id 7782.
+[2012-12-07 08:55:02] [ERROR] bind error
+[2012-12-07 08:55:13] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 08:55:13] [SERVER] The current pid id 7786.
+[2012-12-07 08:55:13] [ERROR] bind error
+[2012-12-07 08:55:14] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 08:55:14] [SERVER] The current pid id 7790.
+[2012-12-07 08:55:14] [ERROR] bind error
+[2012-12-07 08:55:14] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 08:55:14] [SERVER] The current pid id 7794.
+[2012-12-07 08:55:14] [ERROR] bind error
+[2012-12-07 08:55:17] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 08:55:17] [SERVER] The current pid id 7799.
+[2012-12-07 08:55:17] [ERROR] bind error
+[2012-12-07 08:55:52] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 08:55:52] [SERVER] The current pid id 7813.
+[2012-12-07 08:55:52] [SERVER] This server is listening.
+[2012-12-07 08:55:59] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 08:55:59] [SERVER] The current pid id 7825.
+[2012-12-07 08:55:59] [SERVER] This server is listening.
+[2012-12-07 08:56:19] [ERROR] read error.
+[2012-12-07 09:04:57] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 09:04:57] [SERVER] The current pid id 7911.
+[2012-12-07 09:04:57] [SERVER] This server is listening.
+[2012-12-07 09:05:17] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 09:05:17] [SERVER] The current pid id 7928.
+[2012-12-07 09:05:17] [ERROR] bind error
+[2012-12-07 09:05:43] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 09:05:43] [SERVER] The current pid id 7937.
+[2012-12-07 09:05:43] [ERROR] bind error
+[2012-12-07 09:05:47] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 09:05:47] [SERVER] The current pid id 7941.
+[2012-12-07 09:05:47] [ERROR] bind error
+[2012-12-07 09:05:49] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 09:05:49] [SERVER] The current pid id 7945.
+[2012-12-07 09:05:49] [ERROR] bind error
+[2012-12-07 09:05:50] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 09:05:50] [SERVER] The current pid id 7949.
+[2012-12-07 09:05:50] [ERROR] bind error
+[2012-12-07 09:05:50] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 09:05:50] [SERVER] The current pid id 7953.
+[2012-12-07 09:05:50] [ERROR] bind error
+[2012-12-07 09:06:38] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 09:06:38] [SERVER] The current pid id 7982.
+[2012-12-07 09:06:38] [SERVER] This server is listening.
+[2012-12-07 09:06:43] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 09:06:43] [SERVER] The current pid id 7988.
+[2012-12-07 09:06:43] [ERROR] bind error
+[2012-12-07 09:08:09] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 09:08:09] [SERVER] The current pid id 8007.
+[2012-12-07 09:08:09] [SERVER] This server is listening.
+[2012-12-07 09:08:16] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 09:08:16] [SERVER] The current pid id 8018.
+[2012-12-07 09:08:16] [SERVER] This server is listening.
+[2012-12-07 09:09:02] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 09:09:02] [SERVER] The current pid id 8037.
+[2012-12-07 09:09:02] [SERVER] This server is listening.
+[2012-12-07 09:09:23] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 09:09:23] [SERVER] The current pid id 8063.
+[2012-12-07 09:09:23] [ERROR] bind error
+[2012-12-07 09:09:27] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 09:09:27] [SERVER] The current pid id 8082.
+[2012-12-07 09:09:27] [ERROR] bind error
+[2012-12-07 09:09:42] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 09:09:42] [SERVER] The current pid id 8091.
+[2012-12-07 09:09:42] [ERROR] bind error
+[2012-12-07 09:12:02] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 09:12:02] [SERVER] The current pid id 8122.
+[2012-12-07 09:12:02] [SERVER] This server is listening.
+[2012-12-07 09:12:17] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 09:12:17] [SERVER] The current pid id 8131.
+[2012-12-07 09:12:17] [ERROR] bind error
+[2012-12-07 09:34:03] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 09:34:03] [SERVER] The current pid id 8237.
+[2012-12-07 09:34:03] [SERVER] This server is listening.
+[2012-12-07 09:34:24] [ERROR] read error.
+[2012-12-07 09:40:08] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 09:40:08] [SERVER] The current pid id 8355.
+[2012-12-07 09:40:08] [SERVER] This server is listening.
+[2012-12-07 09:40:38] [ERROR] read error.
+[2012-12-07 09:42:10] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 09:42:10] [SERVER] The current pid id 8455.
+[2012-12-07 09:42:10] [SERVER] This server is listening.
+[2012-12-07 09:42:23] [ERROR] read error.
+[2012-12-07 09:43:56] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 09:43:56] [SERVER] The current pid id 8489.
+[2012-12-07 09:43:56] [SERVER] This server is listening.
+[2012-12-07 09:44:08] [ERROR] read error.
+[2012-12-07 09:44:34] [ERROR] read error.
+[2012-12-07 09:45:28] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 09:45:28] [SERVER] The current pid id 8520.
+[2012-12-07 09:45:28] [ERROR] bind error
+[2012-12-07 09:45:52] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 09:45:52] [SERVER] The current pid id 8540.
+[2012-12-07 09:45:52] [SERVER] This server is listening.
+[2012-12-07 09:46:03] [ERROR] read error.
+[2012-12-07 09:46:27] [ERROR] read error.
+[2012-12-07 09:52:22] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 09:52:22] [SERVER] The current pid id 8624.
+[2012-12-07 09:52:22] [SERVER] This server is listening.
+[2012-12-07 09:52:35] [ERROR] read error.
+[2012-12-07 09:54:20] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 09:54:20] [SERVER] The current pid id 8651.
+[2012-12-07 09:54:20] [SERVER] This server is listening.
+[2012-12-07 09:54:41] [ERROR] read error.
+[2012-12-07 09:55:13] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 09:55:13] [SERVER] The current pid id 8700.
+[2012-12-07 09:55:13] [ERROR] bind error
+[2012-12-07 09:55:25] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 09:55:25] [SERVER] The current pid id 8716.
+[2012-12-07 09:55:25] [SERVER] This server is listening.
+[2012-12-07 09:55:37] [ERROR] read error.
+[2012-12-07 10:19:15] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 10:19:15] [SERVER] The current pid id 8855.
+[2012-12-07 10:19:15] [SERVER] This server is listening.
+[2012-12-07 10:20:37] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 10:20:37] [SERVER] The current pid id 8887.
+[2012-12-07 10:20:37] [SERVER] This server is listening.
+[2012-12-07 10:21:25] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 10:21:25] [SERVER] The current pid id 8920.
+[2012-12-07 10:21:25] [ERROR] bind error
+[2012-12-07 10:21:30] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 10:21:30] [SERVER] The current pid id 8924.
+[2012-12-07 10:21:30] [ERROR] bind error
+[2012-12-07 10:21:32] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 10:21:32] [SERVER] The current pid id 8928.
+[2012-12-07 10:21:32] [ERROR] bind error
+[2012-12-07 10:21:37] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 10:21:37] [SERVER] The current pid id 8932.
+[2012-12-07 10:21:37] [ERROR] bind error
+[2012-12-07 10:21:38] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 10:21:38] [SERVER] The current pid id 8936.
+[2012-12-07 10:21:38] [ERROR] bind error
+[2012-12-07 10:23:07] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 10:23:07] [SERVER] The current pid id 8970.
+[2012-12-07 10:23:07] [SERVER] This server is listening.
+[2012-12-07 10:24:32] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 10:24:32] [SERVER] The current pid id 8991.
+[2012-12-07 10:24:32] [SERVER] This server is listening.
+[2012-12-07 10:24:45] [ERROR] read error.
+[2012-12-07 10:25:36] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 10:25:36] [SERVER] The current pid id 9027.
+[2012-12-07 10:25:36] [SERVER] This server is listening.
+[2012-12-07 10:25:55] [ERROR] read error.
+[2012-12-07 10:26:28] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 10:26:28] [SERVER] The current pid id 9056.
+[2012-12-07 10:26:28] [ERROR] bind error
+[2012-12-07 10:26:33] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 10:26:33] [SERVER] The current pid id 9060.
+[2012-12-07 10:26:33] [ERROR] bind error
+[2012-12-07 10:26:34] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 10:26:34] [SERVER] The current pid id 9064.
+[2012-12-07 10:26:34] [ERROR] bind error
+[2012-12-07 10:26:42] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 10:26:42] [SERVER] The current pid id 9068.
+[2012-12-07 10:26:42] [SERVER] This server is listening.
+[2012-12-07 10:28:17] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 10:28:17] [SERVER] The current pid id 9093.
+[2012-12-07 10:28:17] [SERVER] This server is listening.
+[2012-12-07 10:28:29] [ERROR] read error.
+[2012-12-07 10:30:19] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 10:30:19] [SERVER] The current pid id 9151.
+[2012-12-07 10:30:19] [SERVER] This server is listening.
+[2012-12-07 10:30:39] [ERROR] read error.
+[2012-12-07 10:31:42] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 10:31:42] [SERVER] The current pid id 9248.
+[2012-12-07 10:31:42] [SERVER] This server is listening.
+[2012-12-07 10:34:57] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 10:34:57] [SERVER] The current pid id 9486.
+[2012-12-07 10:34:57] [SERVER] This server is listening.
+[2012-12-07 10:35:41] [ERROR] read error.
+[2012-12-07 10:38:45] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 10:38:45] [SERVER] The current pid id 9742.
+[2012-12-07 10:38:45] [SERVER] This server is listening.
+[2012-12-07 10:42:46] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 10:42:46] [SERVER] The current pid id 9844.
+[2012-12-07 10:42:46] [SERVER] This server is listening.
+[2012-12-07 10:43:06] [ERROR] read error.
+[2012-12-07 11:05:45] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:05:45] [SERVER] The current pid id 11026.
+[2012-12-07 11:05:45] [SERVER] This server is listening.
+[2012-12-07 11:06:37] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:06:37] [SERVER] The current pid id 11146.
+[2012-12-07 11:06:37] [ERROR] bind error
+[2012-12-07 11:06:52] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:06:52] [SERVER] The current pid id 11178.
+[2012-12-07 11:06:52] [ERROR] bind error
+[2012-12-07 11:11:00] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:11:00] [SERVER] The current pid id 11758.
+[2012-12-07 11:11:00] [SERVER] This server is listening.
+[2012-12-07 11:12:02] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:12:02] [SERVER] The current pid id 11913.
+[2012-12-07 11:12:02] [ERROR] bind error
+[2012-12-07 11:12:50] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:12:50] [SERVER] The current pid id 11975.
+[2012-12-07 11:12:50] [SERVER] This server is listening.
+[2012-12-07 11:13:35] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:13:35] [SERVER] The current pid id 11994.
+[2012-12-07 11:13:35] [ERROR] bind error
+[2012-12-07 11:13:36] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:13:36] [SERVER] The current pid id 12005.
+[2012-12-07 11:13:36] [ERROR] bind error
+[2012-12-07 11:13:43] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:13:43] [SERVER] The current pid id 12011.
+[2012-12-07 11:13:43] [ERROR] bind error
+[2012-12-07 11:13:52] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:13:52] [SERVER] The current pid id 12015.
+[2012-12-07 11:13:52] [ERROR] bind error
+[2012-12-07 11:13:55] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:13:55] [SERVER] The current pid id 12019.
+[2012-12-07 11:13:55] [ERROR] bind error
+[2012-12-07 11:14:02] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:14:02] [SERVER] The current pid id 12023.
+[2012-12-07 11:14:02] [SERVER] This server is listening.
+[2012-12-07 11:15:18] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:15:18] [SERVER] The current pid id 12050.
+[2012-12-07 11:15:18] [SERVER] This server is listening.
+[2012-12-07 11:16:32] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:16:32] [SERVER] The current pid id 12073.
+[2012-12-07 11:16:32] [ERROR] bind error
+[2012-12-07 11:16:38] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:16:38] [SERVER] The current pid id 12084.
+[2012-12-07 11:16:38] [SERVER] This server is listening.
+[2012-12-07 11:17:34] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:17:34] [SERVER] The current pid id 12116.
+[2012-12-07 11:17:34] [ERROR] bind error
+[2012-12-07 11:17:37] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:17:37] [SERVER] The current pid id 12120.
+[2012-12-07 11:17:37] [ERROR] bind error
+[2012-12-07 11:17:38] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:17:38] [SERVER] The current pid id 12124.
+[2012-12-07 11:17:38] [ERROR] bind error
+[2012-12-07 11:17:40] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:17:40] [SERVER] The current pid id 12128.
+[2012-12-07 11:17:40] [ERROR] bind error
+[2012-12-07 11:17:42] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:17:42] [SERVER] The current pid id 12132.
+[2012-12-07 11:17:42] [ERROR] bind error
+[2012-12-07 11:17:46] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:17:46] [SERVER] The current pid id 12136.
+[2012-12-07 11:17:46] [ERROR] bind error
+[2012-12-07 11:17:48] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:17:48] [SERVER] The current pid id 12140.
+[2012-12-07 11:17:48] [SERVER] This server is listening.
+[2012-12-07 11:19:47] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:19:47] [SERVER] The current pid id 12161.
+[2012-12-07 11:19:47] [SERVER] This server is listening.
+[2012-12-07 11:20:04] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:20:04] [SERVER] The current pid id 12195.
+[2012-12-07 11:20:04] [ERROR] bind error
+[2012-12-07 11:21:19] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:21:19] [SERVER] The current pid id 12201.
+[2012-12-07 11:21:19] [SERVER] This server is listening.
+[2012-12-07 11:22:56] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:22:56] [SERVER] The current pid id 12222.
+[2012-12-07 11:22:56] [SERVER] This server is listening.
+[2012-12-07 11:35:23] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:35:23] [SERVER] The current pid id 12341.
+[2012-12-07 11:35:23] [SERVER] This server is listening.
+[2012-12-07 11:36:07] [ERROR] read error.
+[2012-12-07 11:36:21] [ERROR] read error.
+[2012-12-07 11:37:44] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:37:44] [SERVER] The current pid id 12386.
+[2012-12-07 11:37:44] [SERVER] This server is listening.
+[2012-12-07 11:40:02] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:40:02] [SERVER] The current pid id 12423.
+[2012-12-07 11:40:02] [SERVER] This server is listening.
+[2012-12-07 11:40:57] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:40:57] [SERVER] The current pid id 12453.
+[2012-12-07 11:40:57] [ERROR] bind error
+[2012-12-07 11:41:02] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:41:02] [SERVER] The current pid id 12457.
+[2012-12-07 11:41:02] [ERROR] bind error
+[2012-12-07 11:41:02] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:41:02] [SERVER] The current pid id 12461.
+[2012-12-07 11:41:02] [ERROR] bind error
+[2012-12-07 11:41:03] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:41:03] [SERVER] The current pid id 12465.
+[2012-12-07 11:41:03] [ERROR] bind error
+[2012-12-07 11:41:04] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:41:04] [SERVER] The current pid id 12469.
+[2012-12-07 11:41:04] [ERROR] bind error
+[2012-12-07 11:41:04] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:41:04] [SERVER] The current pid id 12473.
+[2012-12-07 11:41:04] [ERROR] bind error
+[2012-12-07 11:41:05] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:41:05] [SERVER] The current pid id 12477.
+[2012-12-07 11:41:05] [SERVER] This server is listening.
+[2012-12-07 11:41:57] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:41:57] [SERVER] The current pid id 12497.
+[2012-12-07 11:41:57] [ERROR] bind error
+[2012-12-07 11:41:59] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:41:59] [SERVER] The current pid id 12508.
+[2012-12-07 11:41:59] [ERROR] bind error
+[2012-12-07 11:42:00] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:42:00] [SERVER] The current pid id 12512.
+[2012-12-07 11:42:00] [ERROR] bind error
+[2012-12-07 11:42:01] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:42:01] [SERVER] The current pid id 12516.
+[2012-12-07 11:42:01] [ERROR] bind error
+[2012-12-07 11:42:02] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:42:02] [SERVER] The current pid id 12520.
+[2012-12-07 11:42:02] [ERROR] bind error
+[2012-12-07 11:42:03] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:42:03] [SERVER] The current pid id 12524.
+[2012-12-07 11:42:03] [ERROR] bind error
+[2012-12-07 11:42:05] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:42:05] [SERVER] The current pid id 12528.
+[2012-12-07 11:42:05] [ERROR] bind error
+[2012-12-07 11:42:06] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:42:06] [SERVER] The current pid id 12532.
+[2012-12-07 11:42:06] [ERROR] bind error
+[2012-12-07 11:42:07] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:42:07] [SERVER] The current pid id 12536.
+[2012-12-07 11:42:07] [ERROR] bind error
+[2012-12-07 11:42:08] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:42:08] [SERVER] The current pid id 12540.
+[2012-12-07 11:42:08] [ERROR] bind error
+[2012-12-07 11:42:09] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:42:09] [SERVER] The current pid id 12544.
+[2012-12-07 11:42:09] [ERROR] bind error
+[2012-12-07 11:42:10] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:42:10] [SERVER] The current pid id 12548.
+[2012-12-07 11:42:10] [ERROR] bind error
+[2012-12-07 11:42:11] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:42:11] [SERVER] The current pid id 12552.
+[2012-12-07 11:42:11] [ERROR] bind error
+[2012-12-07 11:42:12] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:42:12] [SERVER] The current pid id 12556.
+[2012-12-07 11:42:12] [ERROR] bind error
+[2012-12-07 11:42:13] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:42:13] [SERVER] The current pid id 12560.
+[2012-12-07 11:42:13] [ERROR] bind error
+[2012-12-07 11:42:17] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:42:17] [SERVER] The current pid id 12564.
+[2012-12-07 11:42:17] [ERROR] bind error
+[2012-12-07 11:42:18] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:42:18] [SERVER] The current pid id 12568.
+[2012-12-07 11:42:18] [ERROR] bind error
+[2012-12-07 11:42:19] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:42:19] [SERVER] The current pid id 12572.
+[2012-12-07 11:42:19] [ERROR] bind error
+[2012-12-07 11:42:21] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:42:21] [SERVER] The current pid id 12576.
+[2012-12-07 11:42:21] [SERVER] This server is listening.
+[2012-12-07 11:42:59] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:42:59] [SERVER] The current pid id 12607.
+[2012-12-07 11:42:59] [ERROR] bind error
+[2012-12-07 11:43:08] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:43:08] [SERVER] The current pid id 12611.
+[2012-12-07 11:43:08] [ERROR] bind error
+[2012-12-07 11:43:09] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:43:09] [SERVER] The current pid id 12615.
+[2012-12-07 11:43:09] [ERROR] bind error
+[2012-12-07 11:43:10] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:43:10] [SERVER] The current pid id 12619.
+[2012-12-07 11:43:10] [ERROR] bind error
+[2012-12-07 11:43:11] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:43:11] [SERVER] The current pid id 12623.
+[2012-12-07 11:43:11] [ERROR] bind error
+[2012-12-07 11:43:12] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:43:12] [SERVER] The current pid id 12627.
+[2012-12-07 11:43:12] [ERROR] bind error
+[2012-12-07 11:43:19] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:43:19] [SERVER] The current pid id 12632.
+[2012-12-07 11:43:19] [SERVER] This server is listening.
+[2012-12-07 11:45:08] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:45:08] [SERVER] The current pid id 12661.
+[2012-12-07 11:45:08] [SERVER] This server is listening.
+[2012-12-07 11:47:56] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:47:56] [SERVER] The current pid id 12700.
+[2012-12-07 11:47:56] [SERVER] This server is listening.
+[2012-12-07 11:52:37] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:52:37] [SERVER] The current pid id 12763.
+[2012-12-07 11:52:37] [SERVER] This server is listening.
+[2012-12-07 11:53:37] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:53:37] [SERVER] The current pid id 12788.
+[2012-12-07 11:53:37] [ERROR] bind error
+[2012-12-07 11:53:50] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:53:50] [SERVER] The current pid id 12794.
+[2012-12-07 11:53:50] [SERVER] This server is listening.
+[2012-12-07 11:56:10] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:56:10] [SERVER] The current pid id 12825.
+[2012-12-07 11:56:10] [SERVER] This server is listening.
+[2012-12-07 11:56:56] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:56:56] [SERVER] The current pid id 12851.
+[2012-12-07 11:56:56] [ERROR] bind error
+[2012-12-07 11:57:12] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:57:12] [SERVER] The current pid id 12855.
+[2012-12-07 11:57:12] [ERROR] bind error
+[2012-12-07 11:57:18] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:57:18] [SERVER] The current pid id 12859.
+[2012-12-07 11:57:18] [SERVER] This server is listening.
+[2012-12-07 11:57:36] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:57:36] [SERVER] The current pid id 12866.
+[2012-12-07 11:57:36] [ERROR] bind error
+[2012-12-07 11:57:41] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:57:41] [SERVER] The current pid id 12870.
+[2012-12-07 11:57:41] [ERROR] bind error
+[2012-12-07 11:57:42] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:57:42] [SERVER] The current pid id 12874.
+[2012-12-07 11:57:42] [ERROR] bind error
+[2012-12-07 11:57:43] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:57:43] [SERVER] The current pid id 12878.
+[2012-12-07 11:57:43] [ERROR] bind error
+[2012-12-07 11:57:43] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:57:44] [SERVER] The current pid id 12882.
+[2012-12-07 11:57:44] [ERROR] bind error
+[2012-12-07 11:57:44] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:57:44] [SERVER] The current pid id 12886.
+[2012-12-07 11:57:44] [ERROR] bind error
+[2012-12-07 11:57:45] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:57:45] [SERVER] The current pid id 12890.
+[2012-12-07 11:57:45] [ERROR] bind error
+[2012-12-07 11:57:45] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:57:45] [SERVER] The current pid id 12894.
+[2012-12-07 11:57:45] [ERROR] bind error
+[2012-12-07 11:57:46] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:57:46] [SERVER] The current pid id 12898.
+[2012-12-07 11:57:46] [ERROR] bind error
+[2012-12-07 11:57:46] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:57:46] [SERVER] The current pid id 12902.
+[2012-12-07 11:57:46] [ERROR] bind error
+[2012-12-07 11:57:47] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:57:47] [SERVER] The current pid id 12906.
+[2012-12-07 11:57:47] [ERROR] bind error
+[2012-12-07 11:57:47] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:57:47] [SERVER] The current pid id 12910.
+[2012-12-07 11:57:47] [ERROR] bind error
+[2012-12-07 11:57:47] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:57:47] [SERVER] The current pid id 12914.
+[2012-12-07 11:57:47] [ERROR] bind error
+[2012-12-07 11:57:48] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:57:48] [SERVER] The current pid id 12918.
+[2012-12-07 11:57:48] [ERROR] bind error
+[2012-12-07 11:57:48] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:57:48] [SERVER] The current pid id 12922.
+[2012-12-07 11:57:48] [ERROR] bind error
+[2012-12-07 11:57:49] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:57:49] [SERVER] The current pid id 12926.
+[2012-12-07 11:57:49] [ERROR] bind error
+[2012-12-07 11:57:49] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:57:49] [SERVER] The current pid id 12930.
+[2012-12-07 11:57:49] [ERROR] bind error
+[2012-12-07 11:57:51] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:57:51] [SERVER] The current pid id 12934.
+[2012-12-07 11:57:51] [ERROR] bind error
+[2012-12-07 11:57:56] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:57:56] [SERVER] The current pid id 12938.
+[2012-12-07 11:57:56] [ERROR] bind error
+[2012-12-07 11:58:19] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:58:19] [SERVER] The current pid id 12943.
+[2012-12-07 11:58:19] [ERROR] bind error
+[2012-12-07 11:58:51] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 11:58:51] [SERVER] The current pid id 12950.
+[2012-12-07 11:58:51] [SERVER] This server is listening.
+[2012-12-07 12:00:14] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:00:14] [SERVER] The current pid id 12979.
+[2012-12-07 12:00:14] [SERVER] This server is listening.
+[2012-12-07 12:01:36] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:01:36] [SERVER] The current pid id 13017.
+[2012-12-07 12:01:36] [SERVER] This server is listening.
+[2012-12-07 12:02:00] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:02:00] [SERVER] The current pid id 13041.
+[2012-12-07 12:02:00] [ERROR] bind error
+[2012-12-07 12:02:22] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:02:22] [SERVER] The current pid id 13063.
+[2012-12-07 12:02:22] [ERROR] bind error
+[2012-12-07 12:02:28] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:02:28] [SERVER] The current pid id 13069.
+[2012-12-07 12:02:28] [ERROR] bind error
+[2012-12-07 12:02:29] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:02:29] [SERVER] The current pid id 13073.
+[2012-12-07 12:02:29] [ERROR] bind error
+[2012-12-07 12:02:30] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:02:30] [SERVER] The current pid id 13077.
+[2012-12-07 12:02:30] [ERROR] bind error
+[2012-12-07 12:02:51] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:02:51] [SERVER] The current pid id 13100.
+[2012-12-07 12:02:51] [SERVER] This server is listening.
+[2012-12-07 12:03:19] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:03:19] [SERVER] The current pid id 13124.
+[2012-12-07 12:03:19] [ERROR] bind error
+[2012-12-07 12:03:22] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:03:22] [SERVER] The current pid id 13128.
+[2012-12-07 12:03:22] [ERROR] bind error
+[2012-12-07 12:03:22] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:03:22] [SERVER] The current pid id 13132.
+[2012-12-07 12:03:22] [ERROR] bind error
+[2012-12-07 12:03:23] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:03:23] [SERVER] The current pid id 13136.
+[2012-12-07 12:03:23] [ERROR] bind error
+[2012-12-07 12:03:23] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:03:23] [SERVER] The current pid id 13140.
+[2012-12-07 12:03:23] [ERROR] bind error
+[2012-12-07 12:03:24] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:03:24] [SERVER] The current pid id 13144.
+[2012-12-07 12:03:24] [ERROR] bind error
+[2012-12-07 12:03:24] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:03:24] [SERVER] The current pid id 13148.
+[2012-12-07 12:03:24] [ERROR] bind error
+[2012-12-07 12:03:24] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:03:24] [SERVER] The current pid id 13152.
+[2012-12-07 12:03:24] [ERROR] bind error
+[2012-12-07 12:03:24] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:03:24] [SERVER] The current pid id 13156.
+[2012-12-07 12:03:24] [ERROR] bind error
+[2012-12-07 12:03:25] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:03:25] [SERVER] The current pid id 13160.
+[2012-12-07 12:03:25] [ERROR] bind error
+[2012-12-07 12:03:31] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:03:31] [SERVER] The current pid id 13164.
+[2012-12-07 12:03:31] [ERROR] bind error
+[2012-12-07 12:03:31] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:03:31] [SERVER] The current pid id 13168.
+[2012-12-07 12:03:31] [ERROR] bind error
+[2012-12-07 12:03:47] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:03:47] [SERVER] The current pid id 13193.
+[2012-12-07 12:03:47] [ERROR] bind error
+[2012-12-07 12:04:01] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:04:01] [SERVER] The current pid id 13200.
+[2012-12-07 12:04:01] [SERVER] This server is listening.
+[2012-12-07 12:09:48] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:09:48] [SERVER] The current pid id 13252.
+[2012-12-07 12:09:48] [SERVER] This server is listening.
+[2012-12-07 12:11:33] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:11:33] [SERVER] The current pid id 13298.
+[2012-12-07 12:11:33] [ERROR] bind error
+[2012-12-07 12:11:47] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:11:47] [SERVER] The current pid id 13313.
+[2012-12-07 12:11:47] [ERROR] bind error
+[2012-12-07 12:12:07] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:12:07] [SERVER] The current pid id 13324.
+[2012-12-07 12:12:07] [ERROR] bind error
+[2012-12-07 12:12:33] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:12:33] [SERVER] The current pid id 13333.
+[2012-12-07 12:12:33] [SERVER] This server is listening.
+[2012-12-07 12:17:09] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:17:09] [SERVER] The current pid id 13364.
+[2012-12-07 12:17:09] [ERROR] bind error
+[2012-12-07 12:17:36] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:17:36] [SERVER] The current pid id 13383.
+[2012-12-07 12:17:36] [ERROR] bind error
+[2012-12-07 12:17:52] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:17:52] [SERVER] The current pid id 13391.
+[2012-12-07 12:17:52] [ERROR] bind error
+[2012-12-07 12:18:02] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:18:02] [SERVER] The current pid id 13396.
+[2012-12-07 12:18:02] [ERROR] bind error
+[2012-12-07 12:18:38] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:18:38] [SERVER] The current pid id 13412.
+[2012-12-07 12:18:38] [SERVER] This server is listening.
+[2012-12-07 12:20:54] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:20:54] [SERVER] The current pid id 13481.
+[2012-12-07 12:20:54] [ERROR] bind error
+[2012-12-07 12:21:37] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:21:37] [SERVER] The current pid id 13499.
+[2012-12-07 12:21:37] [ERROR] bind error
+[2012-12-07 12:21:39] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:21:39] [SERVER] The current pid id 13510.
+[2012-12-07 12:21:39] [SERVER] This server is listening.
+[2012-12-07 12:24:11] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:24:11] [SERVER] The current pid id 13533.
+[2012-12-07 12:24:11] [SERVER] This server is listening.
+[2012-12-07 12:24:46] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:24:46] [SERVER] The current pid id 13564.
+[2012-12-07 12:24:46] [ERROR] bind error
+[2012-12-07 12:24:50] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:24:50] [SERVER] The current pid id 13568.
+[2012-12-07 12:24:50] [ERROR] bind error
+[2012-12-07 12:24:52] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:24:52] [SERVER] The current pid id 13572.
+[2012-12-07 12:24:52] [ERROR] bind error
+[2012-12-07 12:24:53] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:24:53] [SERVER] The current pid id 13576.
+[2012-12-07 12:24:53] [ERROR] bind error
+[2012-12-07 12:24:54] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:24:54] [SERVER] The current pid id 13580.
+[2012-12-07 12:24:54] [ERROR] bind error
+[2012-12-07 12:24:55] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:24:55] [SERVER] The current pid id 13584.
+[2012-12-07 12:24:55] [ERROR] bind error
+[2012-12-07 12:24:55] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:24:55] [SERVER] The current pid id 13588.
+[2012-12-07 12:24:55] [ERROR] bind error
+[2012-12-07 12:24:55] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:24:55] [SERVER] The current pid id 13592.
+[2012-12-07 12:24:55] [ERROR] bind error
+[2012-12-07 12:24:56] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:24:56] [SERVER] The current pid id 13596.
+[2012-12-07 12:24:56] [ERROR] bind error
+[2012-12-07 12:24:56] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:24:56] [SERVER] The current pid id 13600.
+[2012-12-07 12:24:56] [ERROR] bind error
+[2012-12-07 12:24:56] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:24:56] [SERVER] The current pid id 13604.
+[2012-12-07 12:24:56] [ERROR] bind error
+[2012-12-07 12:24:56] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:24:56] [SERVER] The current pid id 13608.
+[2012-12-07 12:24:56] [ERROR] bind error
+[2012-12-07 12:24:57] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:24:57] [SERVER] The current pid id 13612.
+[2012-12-07 12:24:57] [ERROR] bind error
+[2012-12-07 12:24:57] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:24:57] [SERVER] The current pid id 13616.
+[2012-12-07 12:24:57] [ERROR] bind error
+[2012-12-07 12:24:57] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:24:57] [SERVER] The current pid id 13620.
+[2012-12-07 12:24:57] [ERROR] bind error
+[2012-12-07 12:24:57] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:24:57] [SERVER] The current pid id 13624.
+[2012-12-07 12:24:57] [ERROR] bind error
+[2012-12-07 12:25:12] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:25:12] [SERVER] The current pid id 13631.
+[2012-12-07 12:25:12] [ERROR] bind error
+[2012-12-07 12:25:34] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:25:34] [SERVER] The current pid id 13640.
+[2012-12-07 12:25:34] [SERVER] This server is listening.
+[2012-12-07 12:29:24] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:29:24] [SERVER] The current pid id 13668.
+[2012-12-07 12:29:24] [SERVER] This server is listening.
+[2012-12-07 12:30:13] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:30:13] [SERVER] The current pid id 13698.
+[2012-12-07 12:30:13] [ERROR] bind error
+[2012-12-07 12:30:18] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:30:18] [SERVER] The current pid id 13709.
+[2012-12-07 12:30:18] [ERROR] bind error
+[2012-12-07 12:30:19] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:30:19] [SERVER] The current pid id 13713.
+[2012-12-07 12:30:19] [ERROR] bind error
+[2012-12-07 12:30:19] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:30:19] [SERVER] The current pid id 13717.
+[2012-12-07 12:30:19] [ERROR] bind error
+[2012-12-07 12:30:20] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:30:20] [SERVER] The current pid id 13721.
+[2012-12-07 12:30:20] [ERROR] bind error
+[2012-12-07 12:30:20] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:30:20] [SERVER] The current pid id 13725.
+[2012-12-07 12:30:20] [ERROR] bind error
+[2012-12-07 12:30:21] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:30:21] [SERVER] The current pid id 13729.
+[2012-12-07 12:30:21] [ERROR] bind error
+[2012-12-07 12:30:21] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:30:21] [SERVER] The current pid id 13733.
+[2012-12-07 12:30:21] [ERROR] bind error
+[2012-12-07 12:31:07] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:31:07] [SERVER] The current pid id 13737.
+[2012-12-07 12:31:07] [SERVER] This server is listening.
+[2012-12-07 12:32:24] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:32:24] [SERVER] The current pid id 13768.
+[2012-12-07 12:32:24] [SERVER] This server is listening.
+[2012-12-07 12:36:34] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:36:34] [SERVER] The current pid id 13796.
+[2012-12-07 12:36:34] [SERVER] This server is listening.
+[2012-12-07 12:41:30] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:41:30] [SERVER] The current pid id 13890.
+[2012-12-07 12:41:30] [SERVER] This server is listening.
+[2012-12-07 12:43:16] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:43:16] [SERVER] The current pid id 13922.
+[2012-12-07 12:43:16] [SERVER] This server is listening.
+[2012-12-07 12:47:42] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:47:42] [SERVER] The current pid id 13971.
+[2012-12-07 12:47:42] [SERVER] This server is listening.
+[2012-12-07 12:48:21] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:48:21] [SERVER] The current pid id 13989.
+[2012-12-07 12:48:21] [ERROR] bind error
+[2012-12-07 12:48:39] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:48:39] [SERVER] The current pid id 14018.
+[2012-12-07 12:48:39] [ERROR] bind error
+[2012-12-07 12:49:07] [SERVER] The maybe lightweight webserver is operating.
+[2012-12-07 12:49:07] [SERVER] The current pid id 14024.
+[2012-12-07 12:49:07] [SERVER] This server is listening.

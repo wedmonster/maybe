@@ -1,0 +1,77 @@
+GET /montecast/log/2012-12-11.html HTTP/1.1
+Host: 210.117.182.158:8088
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.95 Safari/537.11
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: en-US,en;q=0.8
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+
+
+-------------------------
+TYPE : GET
+URI : montecast/log/2012-12-11.html
+VERSION : HTTP/1.1
+Host : 210.117.182.158:8088
+Connection : keep-alive
+User-Agent : Mozilla/5.0
+Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+key = value
+GET /favicon.ico HTTP/1.1
+Host: 210.117.182.158:8088
+Connection: keep-alive
+Accept: */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.95 Safari/537.11
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: en-US,en;q=0.8
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+
+
+-------------------------
+TYPE : GET
+URI : favicon.ico
+VERSION : HTTP/1.1
+Host : 210.117.182.158:8088
+Connection : keep-alive
+User-Agent : Mozilla/5.0
+Accept : */*
+key = value
+GET /montecast/log/2012-12-11.html HTTP/1.1
+Host: 210.117.182.158:8088
+Connection: keep-alive
+Cache-Control: max-age=0
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.95 Safari/537.11
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: en-US,en;q=0.8
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+
+
+-------------------------
+TYPE : GET
+URI : montecast/log/2012-12-11.html
+VERSION : HTTP/1.1
+Host : 210.117.182.158:8088
+Connection : keep-alive
+User-Agent : Mozilla/5.0
+Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+key = value
+GET /favicon.ico HTTP/1.1
+Host: 210.117.182.158:8088
+Connection: keep-alive
+Accept: */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.95 Safari/537.11
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: en-US,en;q=0.8
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+
+
+-------------------------
+TYPE : GET
+URI : favicon.ico
+VERSION : HTTP/1.1
+Host : 210.117.182.158:8088
+Connection : keep-alive
+User-Agent : Mozilla/5.0
+Accept : */*
+key = value

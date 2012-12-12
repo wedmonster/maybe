@@ -1,0 +1,306 @@
+[2012-12-02 02:11:04 SHELL] Today is Sunday
+[2012-12-02 02:11:04 SHELL] Remove backup directory:/tmp/backup
+[2012-12-02 02:11:04 SHELL] Make directory:/tmp/backup
+[2012-12-02 02:11:04 SHELL] Start Full Backup
+[2012-12-02 02:11:04 SHELL] Make directory:/tmp/backup/Sun
+[2012-12-02 02:11:04 SHELL] \tBackup Path:/tmp/backup/Sun/2012-12-02.tgz
+[2012-12-02 02:11:04 SHELL] Complete Full Backup
+[2012-12-02 02:11:45 SHELL] Today is Sunday
+[2012-12-02 02:11:45 SHELL] Remove backup directory:/tmp/backup
+[2012-12-02 02:11:45 SHELL] Make directory:/tmp/backup
+[2012-12-02 02:11:45 SHELL] Start Full Backup
+[2012-12-02 02:11:45 SHELL] Make directory:/tmp/backup/Sun
+[2012-12-02 02:11:45 SHELL] Backup Path:/tmp/backup/Sun/2012-12-02.tgz
+[2012-12-02 02:11:45 SHELL] Complete Full Backup
+[2012-12-02 02:11:45 SHELL] 
+[2012-12-02 02:11:56 SHELL] Today is Sunday
+[2012-12-02 02:11:56 SHELL] Remove backup directory:/tmp/backup
+[2012-12-02 02:11:56 SHELL] Make directory:/tmp/backup
+[2012-12-02 02:11:56 SHELL] Start Full Backup
+[2012-12-02 02:11:56 SHELL] Make directory:/tmp/backup/Sun
+[2012-12-02 02:11:56 SHELL] Backup Path:/tmp/backup/Sun/2012-12-02.tgz
+[2012-12-02 02:11:56 SHELL] Complete Full Backup
+[2012-12-02 02:11:56 SHELL] 
+[2012-12-06 04:20:15 SHELL] Make directory:114.70.192.25
+[2012-12-06 04:20:15 SHELL] Today is Thursday
+[2012-12-06 04:20:15 SHELL] Start Incremental Backup
+[2012-12-06 04:20:15 SHELL] Make directory:114.70.192.25/Thu
+[2012-12-06 04:20:15 SHELL] Backup Path:114.70.192.25/Thu/2012-12-06.tgz
+[2012-12-06 04:20:16 SHELL] Complete Incremental Backup
+[2012-12-06 04:20:16 SHELL] 
+[2012-12-06 04:21:49 SHELL] Today is Thursday
+[2012-12-06 04:21:49 SHELL] Start Incremental Backup
+[2012-12-06 04:21:49 SHELL] Make directory:/tmp/backup/Thu
+[2012-12-06 04:21:49 SHELL] Backup Path:/tmp/backup/Thu/2012-12-06.tgz
+[2012-12-06 04:21:49 SHELL] Complete Incremental Backup
+[2012-12-06 04:21:49 SHELL] 
+[2012-12-06 04:28:22] [SHELL] Today is Thursday
+[2012-12-06 04:28:22] [SHELL] Start Incremental Backup
+[2012-12-06 04:28:22] [SHELL] Backup Path:/tmp/backup/Thu/2012-12-06.tgz
+[2012-12-06 04:28:22] [SHELL] Complete Incremental Backup
+[2012-12-06 04:28:22] [SHELL] 
+[2012-12-06 04:35:56] [SHELL] Today is Thursday
+[2012-12-06 04:35:56] [SHELL] Start Incremental Backup
+[2012-12-06 04:35:56] [SHELL] Backup Path:/tmp/backup/Thu/2012-12-06.tgz
+[2012-12-06 04:35:56] [SHELL] Complete Incremental Backup
+[2012-12-06 04:35:56] [SHELL] 
+[2012-12-06 04:39:22] [ERROR] logger argument error
+[2012-12-06 04:39:41] [ERROR] logger argument error
+[2012-12-10 11:55:06] [ERROR] Backup List file dosen't exist. Check the file.
+[2012-12-10 11:59:29] [SHELL] Today is Monday
+[2012-12-10 11:59:29] [SHELL] Start Incremental Backup
+[2012-12-10 11:59:29] [SHELL] Make directory:/tmp/backup/Mon
+[2012-12-10 11:59:29] [SHELL] Backup Path:/tmp/backup/Mon/2012-12-10.tgz
+[2012-12-10 11:59:29] [SHELL] Complete Incremental Backup
+[2012-12-10 11:59:29] [SHELL] 
+[2012-12-10 12:00:20] [SHELL] Today is Monday
+[2012-12-10 12:00:20] [SHELL] Start Incremental Backup
+[2012-12-10 12:00:20] [SHELL] Backup Path:/tmp/backup/Mon/2012-12-10.tgz
+[2012-12-10 12:00:20] [SHELL] Complete Incremental Backup
+[2012-12-10 12:00:20] [SHELL] 
+[2012-12-10 12:01:00] [SHELL] Today is Monday
+[2012-12-10 12:01:00] [SHELL] Start Incremental Backup
+[2012-12-10 12:01:00] [SHELL] Backup Path:/tmp/backup/Mon/2012-12-10.tgz
+[2012-12-10 12:01:00] [SHELL] Complete Incremental Backup
+[2012-12-10 12:01:00] [SHELL] 
+[2012-12-10 12:27:19] [SHELL] Today is Monday
+[2012-12-10 12:27:19] [SHELL] Remove backup directory:/tmp/backup
+[2012-12-10 12:27:19] [SHELL] Make directory:/tmp/backup
+[2012-12-10 12:27:19] [SHELL] Start Full Backup
+[2012-12-10 12:27:19] [SHELL] Make directory:/tmp/backup/Mon
+[2012-12-10 12:27:19] [SHELL] Backup Path:/tmp/backup/Mon/2012-12-10.tgz
+[2012-12-10 12:27:19] [SHELL] Complete Full Backup
+[2012-12-10 12:27:19] [SHELL] 
+[2012-12-10 12:27:31] [SHELL] Today is Monday
+[2012-12-10 12:27:31] [SHELL] Start Incremental Backup
+[2012-12-10 12:27:31] [SHELL] Backup Path:/tmp/backup/Mon/2012-12-10.tgz
+[2012-12-10 12:27:31] [SHELL] Complete Incremental Backup
+[2012-12-10 12:27:31] [SHELL] 
+[2012-12-10 12:29:04] [SHELL] Today is Monday
+[2012-12-10 12:29:04] [SHELL] Start Incremental Backup
+[2012-12-10 12:29:04] [SHELL] Backup Path:/tmp/backup/Mon/2012-12-10.tgz
+[2012-12-10 12:29:04] [SHELL] Complete Incremental Backup
+[2012-12-10 12:29:04] [SHELL] 
+[2012-12-10 12:45:55] [SHELL] Today is Monday
+[2012-12-10 12:45:55] [SHELL] Start Incremental Backup
+[2012-12-10 12:45:55] [SHELL] Backup Path:/tmp/backup/Mon/2012-12-10.tgz
+[2012-12-10 12:45:55] [SHELL] Complete Incremental Backup
+[2012-12-10 12:45:55] [SHELL] 
+[2012-12-11 00:46:27] [SHELL] Today is Tuesday
+[2012-12-11 00:46:27] [SHELL] Remove backup directory:/tmp/backup
+[2012-12-11 00:46:27] [SHELL] Make directory:/tmp/backup
+[2012-12-11 00:46:27] [SHELL] Start Full Backup
+[2012-12-11 00:46:27] [SHELL] Make directory:/tmp/backup/Tue
+[2012-12-11 00:46:27] [SHELL] Backup Path:/tmp/backup/Tue/2012-12-11.tgz
+[2012-12-11 00:46:27] [SHELL] Complete Full Backup
+[2012-12-11 00:46:27] [SHELL] 
+[2012-12-11 00:47:55] [SHELL] Today is Tuesday
+[2012-12-11 00:47:55] [SHELL] Remove backup directory:/tmp/backup
+[2012-12-11 00:47:55] [SHELL] Make directory:/tmp/backup
+[2012-12-11 00:47:55] [SHELL] Start Full Backup
+[2012-12-11 00:47:55] [SHELL] Make directory:/tmp/backup/Tue
+[2012-12-11 00:47:55] [SHELL] Backup Path:/tmp/backup/Tue/2012-12-11.tgz
+[2012-12-11 00:47:55] [SHELL] Complete Full Backup
+[2012-12-11 00:47:55] [SHELL] 
+[2012-12-11 03:06:08] [SHELL] Today is Tuesday
+[2012-12-11 03:06:08] [SHELL] Start Incremental Backup
+[2012-12-11 03:06:08] [SHELL] Backup Path:/tmp/backup/Tue/2012-12-11.tgz
+[2012-12-11 03:06:08] [SHELL] Complete Incremental Backup
+[2012-12-11 03:06:08] [SHELL] 
+[2012-12-11 03:08:25] [SHELL] Today is Tuesday
+[2012-12-11 03:08:25] [SHELL] Start Incremental Backup
+[2012-12-11 03:08:25] [SHELL] Backup Path:/tmp/backup/Tue/2012-12-11.tgz
+[2012-12-11 03:08:25] [SHELL] Complete Incremental Backup
+[2012-12-11 03:08:25] [SHELL] 
+[2012-12-11 03:13:40] [SHELL] Today is Tuesday
+[2012-12-11 03:13:40] [SHELL] Start Incremental Backup
+[2012-12-11 03:13:40] [SHELL] Backup Path:/tmp/backup/Tue/2012-12-11.tgz
+[2012-12-11 03:13:40] [SHELL] Complete Incremental Backup
+[2012-12-11 03:13:40] [SHELL] 
+[2012-12-11 03:23:30] [SHELL] Today is Tuesday
+[2012-12-11 03:23:30] [SHELL] Remove backup directory:/tmp/backup
+[2012-12-11 03:23:30] [SHELL] Make directory:/tmp/backup
+[2012-12-11 03:23:30] [SHELL] Start Full Backup
+[2012-12-11 03:23:30] [SHELL] Make directory:/tmp/backup/Tue
+[2012-12-11 03:23:30] [SHELL] Backup Path:/tmp/backup/Tue/2012-12-11.tgz
+[2012-12-11 03:23:30] [SHELL] Complete Full Backup
+[2012-12-11 03:23:30] [SHELL] 
+[2012-12-11 03:23:36] [SHELL] Today is Tuesday
+[2012-12-11 03:23:36] [SHELL] Start Incremental Backup
+[2012-12-11 03:23:36] [SHELL] Backup Path:/tmp/backup/Tue/2012-12-11.tgz
+[2012-12-11 03:23:36] [SHELL] Complete Incremental Backup
+[2012-12-11 03:23:36] [SHELL] 
+[2012-12-11 03:24:59] [SHELL] Today is Tuesday
+[2012-12-11 03:24:59] [SHELL] Start Incremental Backup
+[2012-12-11 03:24:59] [SHELL] Backup Path:/tmp/backup/Tue/2012-12-11.tgz
+[2012-12-11 03:24:59] [SHELL] Complete Incremental Backup
+[2012-12-11 03:24:59] [SHELL] 
+[2012-12-11 03:25:39] [SHELL] Today is Tuesday
+[2012-12-11 03:25:39] [SHELL] Remove backup directory:/tmp/backup
+[2012-12-11 03:25:39] [SHELL] Make directory:/tmp/backup
+[2012-12-11 03:25:39] [SHELL] Start Full Backup
+[2012-12-11 03:25:39] [SHELL] Make directory:/tmp/backup/Tue
+[2012-12-11 03:25:39] [SHELL] Backup Path:/tmp/backup/Tue/2012-12-11.tgz
+[2012-12-11 03:25:39] [SHELL] Complete Full Backup
+[2012-12-11 03:25:39] [SHELL] 
+[2012-12-11 03:59:15] [SHELL] Today is Tuesday
+[2012-12-11 04:00:03] [SHELL] Today is Tuesday
+[2012-12-11 04:00:03] [SHELL] Start Incremental Backup
+[2012-12-11 04:00:03] [SHELL] Backup Path:/tmp/backup/Tue/2012-12-11.tgz
+[2012-12-11 04:00:03] [SHELL] Complete Incremental Backup
+[2012-12-11 04:00:03] [SHELL] 
+[2012-12-11 04:00:14] [SHELL] Today is Tuesday
+[2012-12-11 04:00:14] [SHELL] 
+[2012-12-11 04:05:07] [SHELL] Today is Tuesday
+[2012-12-11 04:05:07] [SHELL] Remove backup directory:/tmp/backup
+[2012-12-11 04:05:07] [SHELL] Make directory:/tmp/backup
+[2012-12-11 04:05:07] [SHELL] Start Full Backup
+[2012-12-11 04:05:07] [SHELL] Make directory:/tmp/backup/Tue
+[2012-12-11 04:05:08] [SHELL] Backup Path:/tmp/backup/Tue/2012-12-11.tgz
+[2012-12-11 04:05:08] [SHELL] Complete Full Backup
+[2012-12-11 04:05:08] [SHELL] 
+[2012-12-11 04:05:09] [SHELL] Today is Tuesday
+[2012-12-11 04:05:09] [SHELL] 
+[2012-12-11 04:05:17] [SHELL] Today is Tuesday
+[2012-12-11 04:05:17] [SHELL] 
+[2012-12-11 04:07:46] [SHELL] Today is Tuesday
+[2012-12-11 04:08:14] [SHELL] Today is Tuesday
+[2012-12-11 04:08:14] [SHELL] 
+[2012-12-11 04:08:20] [SHELL] Today is Tuesday
+[2012-12-11 04:08:20] [SHELL] 
+[2012-12-11 04:13:44] [SHELL] Today is Tuesday
+[2012-12-11 04:13:44] [SHELL] Start Full Backup
+[2012-12-11 04:13:44] [SHELL] Backup Path:/tmp/backup/Tue/2012-12-11.tgz
+[2012-12-11 04:13:44] [SHELL] Complete Full Backup
+[2012-12-11 04:13:44] [SHELL] 
+[2012-12-11 04:13:45] [SHELL] Today is Tuesday
+[2012-12-11 04:13:45] [SHELL] Start Full Backup
+[2012-12-11 04:13:45] [SHELL] Backup Path:/tmp/backup/Tue/2012-12-11.tgz
+[2012-12-11 04:13:45] [SHELL] Complete Full Backup
+[2012-12-11 04:13:45] [SHELL] 
+[2012-12-11 04:13:46] [SHELL] Today is Tuesday
+[2012-12-11 04:13:46] [SHELL] Start Full Backup
+[2012-12-11 04:13:46] [SHELL] Backup Path:/tmp/backup/Tue/2012-12-11.tgz
+[2012-12-11 04:13:46] [SHELL] Complete Full Backup
+[2012-12-11 04:13:46] [SHELL] 
+[2012-12-11 04:13:47] [SHELL] Today is Tuesday
+[2012-12-11 04:13:47] [SHELL] Start Full Backup
+[2012-12-11 04:13:47] [SHELL] Backup Path:/tmp/backup/Tue/2012-12-11.tgz
+[2012-12-11 04:13:47] [SHELL] Complete Full Backup
+[2012-12-11 04:13:47] [SHELL] 
+[2012-12-11 04:13:49] [SHELL] Today is Tuesday
+[2012-12-11 04:13:49] [SHELL] Start Full Backup
+[2012-12-11 04:13:49] [SHELL] Backup Path:/tmp/backup/Tue/2012-12-11.tgz
+[2012-12-11 04:13:49] [SHELL] Complete Full Backup
+[2012-12-11 04:13:49] [SHELL] 
+[2012-12-11 04:14:41] [SHELL] Today is Tuesday
+[2012-12-11 04:14:41] [SHELL] Start Full Backup
+[2012-12-11 04:14:41] [SHELL] Backup Path:/tmp/backup/Tue/2012-12-11.tgz
+[2012-12-11 04:14:41] [SHELL] Complete Full Backup
+[2012-12-11 04:14:41] [SHELL] 
+[2012-12-11 04:15:13] [SHELL] Today is Tuesday
+[2012-12-11 04:15:13] [SHELL] Start Full Backup
+[2012-12-11 04:15:13] [SHELL] Backup Path:/tmp/backup/Tue/2012-12-11.tgz
+[2012-12-11 04:15:13] [SHELL] Complete Full Backup
+[2012-12-11 04:15:13] [SHELL] 
+[2012-12-11 04:16:19] [SHELL] Today is Tuesday
+[2012-12-11 04:16:19] [SHELL] Start Full Backup
+[2012-12-11 04:16:19] [SHELL] Backup Path:/tmp/backup/Tue/2012-12-11.tgz
+[2012-12-11 04:16:19] [SHELL] Complete Full Backup
+[2012-12-11 04:16:19] [SHELL] 
+[2012-12-11 07:14:50] [SHELL] Today is Tuesday
+[2012-12-11 07:14:50] [SHELL] Start Full Backup
+[2012-12-11 07:14:50] [SHELL] Backup Path:/tmp/backup/Tue/2012-12-11.tgz
+[2012-12-11 07:14:50] [SHELL] Complete Full Backup
+[2012-12-11 07:14:50] [SHELL] 
+[2012-12-11 07:19:05] [SHELL] Today is Tuesday
+[2012-12-11 07:19:05] [SHELL] Start Full Backup
+[2012-12-11 07:19:05] [SHELL] Backup Path:/tmp/backup/Tue/2012-12-11.tgz
+[2012-12-11 07:19:05] [SHELL] Complete Full Backup
+[2012-12-11 07:19:05] [SHELL] 
+[2012-12-11 08:43:30] [SHELL] Today is Tuesday
+[2012-12-11 08:43:30] [SHELL] Start Full Backup
+[2012-12-11 08:43:30] [SHELL] Backup Path:/tmp/backup/Tue/2012-12-11.tgz
+[2012-12-11 08:43:30] [SHELL] Complete Full Backup
+[2012-12-11 08:43:30] [SHELL] 
+[2012-12-11 08:44:37] [SHELL] Today is Tuesday
+[2012-12-11 08:44:37] [SHELL] Start Full Backup
+[2012-12-11 08:44:37] [SHELL] Backup Path:/tmp/backup/Tue/2012-12-11.tgz
+[2012-12-11 08:44:37] [SHELL] Complete Full Backup
+[2012-12-11 08:44:37] [SHELL] 
+[2012-12-11 08:46:53] [SHELL] Today is Tuesday
+[2012-12-11 08:46:53] [SHELL] Start Full Backup
+[2012-12-11 08:46:53] [SHELL] Backup Path:/tmp/backup/Tue/2012-12-11.tgz
+[2012-12-11 08:46:53] [SHELL] Complete Full Backup
+[2012-12-11 08:46:53] [SHELL] 
+[2012-12-11 08:49:57] [SHELL] Today is Tuesday
+[2012-12-11 08:49:57] [SHELL] Start Full Backup
+[2012-12-11 08:49:57] [SHELL] Backup Path:/tmp/backup/Tue/2012-12-11.tgz
+[2012-12-11 08:49:57] [SHELL] Complete Full Backup
+[2012-12-11 08:49:57] [SHELL] 
+[2012-12-11 19:24:20] [SHELL] Today is Tuesday
+[2012-12-11 19:24:20] [SHELL] Start Full Backup
+[2012-12-11 19:24:20] [SHELL] Backup Path:/tmp/backup/Tue/2012-12-11.tgz
+[2012-12-11 19:24:20] [SHELL] Complete Full Backup
+[2012-12-11 19:24:20] [SHELL] 
+[2012-12-11 19:26:04] [SHELL] Today is Tuesday
+[2012-12-11 19:26:04] [SHELL] Start Full Backup
+[2012-12-11 19:26:04] [SHELL] Backup Path:/tmp/backup/Tue/2012-12-11.tgz
+[2012-12-11 19:26:04] [SHELL] Complete Full Backup
+[2012-12-11 19:26:04] [SHELL] 
+[2012-12-11 19:29:34] [SHELL] Today is Tuesday
+[2012-12-11 19:29:34] [SHELL] Start Full Backup
+[2012-12-11 19:29:34] [SHELL] Backup Path:/tmp/backup/Tue/2012-12-11.tgz
+[2012-12-11 19:29:34] [SHELL] Complete Full Backup
+[2012-12-11 19:29:34] [SHELL] 
+[2012-12-11 19:30:24] [SHELL] Today is Tuesday
+[2012-12-11 19:30:24] [SHELL] Start Full Backup
+[2012-12-11 19:30:24] [SHELL] Backup Path:/tmp/backup/Tue/2012-12-11.tgz
+[2012-12-11 19:30:24] [SHELL] Complete Full Backup
+[2012-12-11 19:30:24] [SHELL] 
+[2012-12-11 19:33:50] [SHELL] Today is Tuesday
+[2012-12-11 19:33:50] [SHELL] Start Full Backup
+[2012-12-11 19:33:50] [SHELL] Backup Path:/tmp/backup/Tue/2012-12-11.tgz
+[2012-12-11 19:33:50] [SHELL] Complete Full Backup
+[2012-12-11 19:33:50] [SHELL] 
+[2012-12-11 19:34:17] [SHELL] Today is Tuesday
+[2012-12-11 19:34:17] [SHELL] Start Full Backup
+[2012-12-11 19:34:17] [SHELL] Backup Path:/tmp/backup/Tue/2012-12-11.tgz
+[2012-12-11 19:34:17] [SHELL] Complete Full Backup
+[2012-12-11 19:34:17] [SHELL] 
+[2012-12-11 20:11:33] [SHELL] Today is Tuesday
+[2012-12-11 20:11:33] [SHELL] Remove backup directory:/tmp/backup
+[2012-12-11 20:11:33] [SHELL] Make directory:/tmp/backup
+[2012-12-11 20:11:33] [SHELL] Start Full Backup
+[2012-12-11 20:11:33] [SHELL] Make directory:/tmp/backup/Tue
+[2012-12-11 20:11:33] [SHELL] Backup Path:/tmp/backup/Tue/2012-12-11.tgz
+[2012-12-11 20:11:33] [SHELL] Complete Full Backup
+[2012-12-11 20:11:33] [SHELL] 
+[2012-12-11 20:18:12] [SHELL] Today is Tuesday
+[2012-12-11 20:18:12] [SHELL] Start Full Backup
+[2012-12-11 20:18:12] [SHELL] Backup Path:/tmp/backup/Tue/2012-12-11.tgz
+[2012-12-11 20:18:12] [SHELL] Complete Full Backup
+[2012-12-11 20:18:12] [SHELL] 
+[2012-12-11 20:26:58] [SHELL] Today is Tuesday
+[2012-12-11 20:26:58] [SHELL] Start Full Backup
+[2012-12-11 20:26:58] [SHELL] Backup Path:/tmp/backup/Tue/2012-12-11.tgz
+[2012-12-11 20:26:58] [SHELL] Complete Full Backup
+[2012-12-11 20:27:03] [SHELL] 
+[2012-12-11 20:29:10] [SHELL] Today is Tuesday
+[2012-12-11 20:29:10] [SHELL] Start Full Backup
+[2012-12-11 20:29:10] [SHELL] Backup Path:/tmp/backup/Tue/2012-12-11.tgz
+[2012-12-11 20:29:10] [SHELL] Complete Full Backup
+[2012-12-11 20:29:10] [SHELL] 
+[2012-12-11 20:52:09] [SHELL] Today is Tuesday
+[2012-12-11 20:52:09] [SHELL] Start Full Backup
+[2012-12-11 20:52:09] [SHELL] Backup Path:/tmp/backup/Tue/2012-12-11.tgz
+[2012-12-11 20:52:09] [SHELL] Complete Full Backup
+[2012-12-11 20:52:09] [SHELL] 
+[2012-12-11 20:52:39] [SHELL] Today is Tuesday
+[2012-12-11 20:52:39] [SHELL] Remove backup directory:/tmp/backup
+[2012-12-11 20:52:39] [SHELL] Make directory:/tmp/backup
+[2012-12-11 20:52:39] [SHELL] Start Full Backup
+[2012-12-11 20:52:39] [SHELL] Make directory:/tmp/backup/Tue
+[2012-12-11 20:52:39] [SHELL] Backup Path:/tmp/backup/Tue/2012-12-11.tgz
+[2012-12-11 20:52:39] [SHELL] Complete Full Backup
+[2012-12-11 20:52:39] [SHELL] 
