@@ -84,7 +84,7 @@ function check_dir()
 	then
 		logger "$SHL" "Make directory:$_PATH"
 		mkdir "$_PATH"
-		chmod 600 "$_PATH"
+		chmod 655 "$_PATH"
 	fi
 }
 
