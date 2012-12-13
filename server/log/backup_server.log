@@ -195,3 +195,1388 @@
 [2012-12-13 04:12:17] [SERVER] There is no File : /tmp/backup/montecast/Wed/2012-12-12.tgz
 
 [2012-12-13 04:12:17] [SERVER] RECOVERY REQUEST END
+[2012-12-13 09:50:01] [SERVER] The maybe backup server is operating.
+[2012-12-13 09:50:01] [ERROR] bind error
+[2012-12-13 09:50:20] [SERVER] The maybe backup server is operating.
+[2012-12-13 09:50:20] [SERVER] This servier is listening.
+[2012-12-13 10:10:22] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 10:10:22] [SERVER] USER REQUEST START
+[2012-12-13 10:12:16] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 10:12:16] [SERVER] BACKUP REQUEST START
+[2012-12-13 10:12:16] [SERVER] there is no directory : 
+[2012-12-13 10:12:16] [SERVER] there is no directory : /tmp/backup/wedmonster
+[2012-12-13 10:12:16] [SERVER] there is no directory : /tmp/backup/wedmonster/Thu
+[2012-12-13 10:12:16] [SERVER] Set Backup directory : /tmp/backup/wedmonster/Thu
+[2012-12-13 10:12:16] [SERVER] Get filename from wedmonster[210.117.182.157] : 
+
+[2012-12-13 10:12:16] [ERROR] file open fail : /tmp/backup/wedmonster/Thu/
+[2012-12-13 10:13:13] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 10:13:13] [SERVER] BACKUP REQUEST START
+[2012-12-13 10:13:13] [SERVER] there is no directory : 
+[2012-12-13 10:13:13] [SERVER] Set Backup directory : /tmp/backup/wedmonster/Thu
+[2012-12-13 10:13:13] [SERVER] Get filename from wedmonster[210.117.182.157] : backup.2012-12-13.log
+
+[2012-12-13 10:13:13] [SERVER] file[/tmp/backup/wedmonster/Thu/backup.2012-12-13.log] is uploaded.
+[2012-12-13 10:13:13] [SERVER] Call: HTMLgen wedmonster 2012-12-13
+[2012-12-13 10:13:13] [SERVER] Get filename from wedmonster[210.117.182.157] : 2012-12-13.tgz
+
+[2012-12-13 10:13:13] [SERVER] file[/tmp/backup/wedmonster/Thu/2012-12-13.tgz] is uploaded.
+[2012-12-13 10:13:13] [SERVER] Call: HTMLgen wedmonster 2012-12-13
+[2012-12-13 10:13:13] [SERVER] BACKUP REQUEST END
+[2012-12-13 10:17:17] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 10:17:17] [SERVER] RECOVERY REQUEST START
+[2012-12-13 10:17:17] [SERVER] set path
+[2012-12-13 10:17:17] [SERVER] There is no File : /tmp/backup/wedmonster/Sun/2012-12-09.tgz
+
+[2012-12-13 10:17:17] [SERVER] There is no File : /tmp/backup/wedmonster/Mon/2012-12-10.tgz
+
+[2012-12-13 10:17:17] [SERVER] There is no File : /tmp/backup/wedmonster/Tue/2012-12-11.tgz
+
+[2012-12-13 10:17:17] [SERVER] There is no File : /tmp/backup/wedmonster/Wed/2012-12-12.tgz
+
+[2012-12-13 10:17:17] [SERVER] RECOVERY REQUEST END
+[2012-12-13 10:18:29] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 10:18:29] [SERVER] RECOVERY REQUEST START
+[2012-12-13 10:18:29] [SERVER] set path
+[2012-12-13 10:18:29] [SERVER] There is no File : /tmp/backup/wedmonster/Sun/2012-12-09.tgz
+
+[2012-12-13 10:18:29] [SERVER] There is no File : /tmp/backup/wedmonster/Mon/2012-12-10.tgz
+
+[2012-12-13 10:18:29] [SERVER] There is no File : /tmp/backup/wedmonster/Tue/2012-12-11.tgz
+
+[2012-12-13 10:18:29] [SERVER] There is no File : /tmp/backup/wedmonster/Wed/2012-12-12.tgz
+
+[2012-12-13 10:18:29] [SERVER] RECOVERY REQUEST END
+[2012-12-13 10:19:07] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 10:19:07] [SERVER] RECOVERY REQUEST START
+[2012-12-13 10:19:07] [SERVER] set path
+[2012-12-13 10:19:07] [SERVER] There is no File : /tmp/backup/wedmonster/Sun/2012-12-09.tgz
+
+[2012-12-13 10:19:07] [SERVER] There is no File : /tmp/backup/wedmonster/Mon/2012-12-10.tgz
+
+[2012-12-13 10:19:07] [SERVER] There is no File : /tmp/backup/wedmonster/Tue/2012-12-11.tgz
+
+[2012-12-13 10:19:07] [SERVER] There is no File : /tmp/backup/wedmonster/Wed/2012-12-12.tgz
+
+[2012-12-13 10:19:07] [SERVER] RECOVERY REQUEST END
+[2012-12-13 10:25:55] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 10:25:55] [SERVER] RECOVERY REQUEST START
+[2012-12-13 10:25:55] [SERVER] set path
+[2012-12-13 10:25:55] [SERVER] There is no File : /tmp/backup/wedmonster/Sun/2012-12-09.tgz
+
+[2012-12-13 10:25:55] [SERVER] There is no File : /tmp/backup/wedmonster/Mon/2012-12-10.tgz
+
+[2012-12-13 10:25:55] [SERVER] There is no File : /tmp/backup/wedmonster/Tue/2012-12-11.tgz
+
+[2012-12-13 10:25:55] [SERVER] There is no File : /tmp/backup/wedmonster/Wed/2012-12-12.tgz
+
+[2012-12-13 10:25:55] [SERVER] RECOVERY REQUEST END
+[2012-12-13 10:28:23] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 10:28:23] [SERVER] RECOVERY REQUEST START
+[2012-12-13 10:28:23] [SERVER] set path
+[2012-12-13 10:28:23] [SERVER] There is no File : /tmp/backup/wedmonster/Sun/2012-12-09.tgz
+
+[2012-12-13 10:28:23] [SERVER] There is no File : /tmp/backup/wedmonster/Mon/2012-12-10.tgz
+
+[2012-12-13 10:28:23] [SERVER] There is no File : /tmp/backup/wedmonster/Tue/2012-12-11.tgz
+
+[2012-12-13 10:28:23] [SERVER] There is no File : /tmp/backup/wedmonster/Wed/2012-12-12.tgz
+
+[2012-12-13 10:28:23] [SERVER] RECOVERY REQUEST END
+[2012-12-13 10:30:06] [SERVER] The maybe backup server is operating.
+[2012-12-13 10:30:06] [SERVER] This servier is listening.
+[2012-12-13 10:30:10] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 10:30:10] [SERVER] RECOVERY REQUEST START
+[2012-12-13 10:30:10] [SERVER] set path
+[2012-12-13 10:30:10] [SERVER] There is no File : /tmp/backup/wedmonster/Sun/2012-12-09.tgz
+
+[2012-12-13 10:30:10] [SERVER] There is no File : /tmp/backup/wedmonster/Mon/2012-12-10.tgz
+
+[2012-12-13 10:30:10] [SERVER] There is no File : /tmp/backup/wedmonster/Tue/2012-12-11.tgz
+
+[2012-12-13 10:30:10] [SERVER] There is no File : /tmp/backup/wedmonster/Wed/2012-12-12.tgz
+
+[2012-12-13 10:30:10] [SERVER] RECOVERY REQUEST END
+[2012-12-13 10:32:12] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 10:32:12] [SERVER] RECOVERY REQUEST START
+[2012-12-13 10:32:12] [SERVER] set path
+[2012-12-13 10:32:12] [SERVER] There is no File : /tmp/backup/wedmonster/Sun/2012-12-09.tgz
+
+[2012-12-13 10:32:12] [SERVER] There is no File : /tmp/backup/wedmonster/Mon/2012-12-10.tgz
+
+[2012-12-13 10:32:12] [SERVER] There is no File : /tmp/backup/wedmonster/Tue/2012-12-11.tgz
+
+[2012-12-13 10:32:12] [SERVER] There is no File : /tmp/backup/wedmonster/Wed/2012-12-12.tgz
+
+[2012-12-13 10:32:12] [SERVER] RECOVERY REQUEST END
+[2012-12-13 10:34:56] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 10:34:56] [SERVER] RECOVERY REQUEST START
+[2012-12-13 10:34:56] [SERVER] set path
+[2012-12-13 10:34:57] [SERVER] There is no File : /tmp/backup/wedmonster/Sun/2012-12-09.tgz
+
+[2012-12-13 10:34:57] [SERVER] There is no File : /tmp/backup/wedmonster/Mon/2012-12-10.tgz
+
+[2012-12-13 10:34:57] [SERVER] There is no File : /tmp/backup/wedmonster/Tue/2012-12-11.tgz
+
+[2012-12-13 10:34:57] [SERVER] There is no File : /tmp/backup/wedmonster/Wed/2012-12-12.tgz
+
+[2012-12-13 10:34:57] [SERVER] RECOVERY REQUEST END
+[2012-12-13 02:33:48] [SERVER] The maybe backup server is operating.
+[2012-12-13 02:33:48] [SERVER] This servier is listening.
+[2012-12-13 02:34:28] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 02:34:28] [SERVER] USER REQUEST START
+[2012-12-13 02:34:28] [SERVER] The client is already enrolled.
+[2012-12-13 02:34:48] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 02:34:48] [SERVER] BACKUP REQUEST START
+[2012-12-13 02:34:48] [SERVER] there is no directory : 
+[2012-12-13 02:34:48] [SERVER] Set Backup directory : /tmp/backup/wedmonster/Thu
+[2012-12-13 02:34:48] [SERVER] Get filename from wedmonster[210.117.182.157] : backup.2012-12-13.log
+
+[2012-12-13 02:34:48] [SERVER] file[/tmp/backup/wedmonster/Thu/backup.2012-12-13.log] is uploaded.
+[2012-12-13 02:34:48] [SERVER] Call: HTMLgen wedmonster 2012-12-13
+[2012-12-13 02:34:48] [SERVER] Get filename from wedmonster[210.117.182.157] : 2012-12-13.tgz
+
+[2012-12-13 02:35:17] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 02:35:17] [SERVER] RECOVERY REQUEST START
+[2012-12-13 02:35:17] [SERVER] set path
+[2012-12-13 02:35:17] [SERVER] There is no File : /tmp/backup/wedmonster/Sun/2012-12-09.tgz
+
+[2012-12-13 02:35:17] [SERVER] There is no File : /tmp/backup/wedmonster/Mon/2012-12-10.tgz
+
+[2012-12-13 02:35:17] [SERVER] There is no File : /tmp/backup/wedmonster/Tue/2012-12-11.tgz
+
+[2012-12-13 02:35:17] [SERVER] There is no File : /tmp/backup/wedmonster/Wed/2012-12-12.tgz
+
+[2012-12-13 02:35:17] [SERVER] RECOVERY REQUEST END
+[2012-12-13 02:35:34] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 02:35:34] [SERVER] RECOVERY REQUEST START
+[2012-12-13 02:35:34] [SERVER] set path
+[2012-12-13 02:35:34] [SERVER] There is no File : /tmp/backup/wedmonster/Sun/2012-12-09.tgz
+
+[2012-12-13 02:35:34] [SERVER] There is no File : /tmp/backup/wedmonster/Mon/2012-12-10.tgz
+
+[2012-12-13 02:35:34] [SERVER] There is no File : /tmp/backup/wedmonster/Tue/2012-12-11.tgz
+
+[2012-12-13 02:35:34] [SERVER] There is no File : /tmp/backup/wedmonster/Wed/2012-12-12.tgz
+
+[2012-12-13 02:35:34] [SERVER] RECOVERY REQUEST END
+[2012-12-13 02:38:09] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 02:38:09] [SERVER] RECOVERY REQUEST START
+[2012-12-13 02:38:09] [SERVER] set path
+[2012-12-13 02:38:09] [SERVER] There is no File : /tmp/backup/wedmonster/Sun/2012-12-09.tgz
+
+[2012-12-13 02:38:09] [SERVER] There is no File : /tmp/backup/wedmonster/Mon/2012-12-10.tgz
+
+[2012-12-13 02:38:09] [SERVER] There is no File : /tmp/backup/wedmonster/Tue/2012-12-11.tgz
+
+[2012-12-13 02:38:09] [SERVER] There is no File : /tmp/backup/wedmonster/Wed/2012-12-12.tgz
+
+[2012-12-13 02:38:09] [SERVER] RECOVERY REQUEST END
+[2012-12-13 02:38:31] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 02:38:31] [SERVER] RECOVERY REQUEST START
+[2012-12-13 02:38:31] [SERVER] set path
+[2012-12-13 02:38:31] [SERVER] There is no File : /tmp/backup/wedmonster/Sun/2012-12-09.tgz
+
+[2012-12-13 02:38:31] [SERVER] There is no File : /tmp/backup/wedmonster/Mon/2012-12-10.tgz
+
+[2012-12-13 02:38:31] [SERVER] There is no File : /tmp/backup/wedmonster/Tue/2012-12-11.tgz
+
+[2012-12-13 02:38:31] [SERVER] There is no File : /tmp/backup/wedmonster/Wed/2012-12-12.tgz
+
+[2012-12-13 02:38:31] [SERVER] RECOVERY REQUEST END
+[2012-12-13 19:10:52] [SERVER] The maybe backup server is operating.
+[2012-12-13 19:10:52] [ERROR] bind error
+[2012-12-13 19:11:04] [SERVER] The maybe backup server is operating.
+[2012-12-13 19:11:04] [SERVER] This servier is listening.
+[2012-12-13 19:19:27] [SERVER] The maybe backup server is operating.
+[2012-12-13 19:19:27] [SERVER] This servier is listening.
+[2012-12-13 19:23:43] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-13 19:23:43] [SERVER] USER REQUEST START
+[2012-12-13 19:23:43] [SERVER] The client is already enrolled.
+[2012-12-13 19:24:30] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-13 19:24:30] [SERVER] BACKUP REQUEST START
+[2012-12-13 19:24:30] [SERVER] there is no directory : 
+[2012-12-13 19:24:30] [SERVER] Set Backup directory : /tmp/backup/montecast/Thu
+[2012-12-13 19:24:30] [SERVER] Get filename from montecast[210.117.182.158] : 2012-12-13.tgz
+
+[2012-12-13 19:24:30] [SERVER] file[/tmp/backup/montecast/Thu/2012-12-13.tgz] is uploaded.
+[2012-12-13 19:24:30] [SERVER] Call: HTMLgen montecast 2012-12-13
+[2012-12-13 19:24:30] [SERVER] Get filename from montecast[210.117.182.158] : backup.2012-12-13.log
+
+[2012-12-13 19:24:30] [SERVER] file[/tmp/backup/montecast/Thu/backup.2012-12-13.log] is uploaded.
+[2012-12-13 19:24:30] [SERVER] Call: HTMLgen montecast 2012-12-13
+[2012-12-13 19:24:30] [SERVER] BACKUP REQUEST END
+[2012-12-13 19:24:43] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-13 19:24:43] [SERVER] RECOVERY REQUEST START
+[2012-12-13 19:24:43] [SERVER] set path
+[2012-12-13 19:24:43] [SERVER] There is no File : /tmp/backup/montecast/Sun/2012-12-09.tgz
+
+[2012-12-13 19:24:43] [SERVER] There is no File : /tmp/backup/montecast/Mon/2012-12-10.tgz
+
+[2012-12-13 19:24:43] [SERVER] There is no File : /tmp/backup/montecast/Tue/2012-12-11.tgz
+
+[2012-12-13 19:24:43] [SERVER] There is no File : /tmp/backup/montecast/Wed/2012-12-12.tgz
+
+[2012-12-13 19:24:43] [SERVER] RECOVERY REQUEST END
+[2012-12-13 19:39:34] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 19:39:34] [SERVER] USER REQUEST START
+[2012-12-13 19:41:12] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 19:41:12] [SERVER] USER REQUEST START
+[2012-12-13 19:42:08] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 19:42:08] [SERVER] USER REQUEST START
+[2012-12-13 19:42:43] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 19:42:43] [SERVER] USER REQUEST START
+[2012-12-13 19:43:23] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 19:43:23] [SERVER] USER REQUEST START
+[2012-12-13 20:01:42] [SERVER] The maybe backup server is operating.
+[2012-12-13 20:01:42] [SERVER] This servier is listening.
+[2012-12-13 20:01:59] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 20:01:59] [SERVER] USER REQUEST START
+[2012-12-13 20:01:59] [SERVER] The client is already enrolled.
+[2012-12-13 20:01:59] [SERVER] USER REQIESET END
+[2012-12-13 20:02:43] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 20:02:43] [SERVER] USER REQUEST START
+[2012-12-13 20:02:43] [SERVER] USER REQIESET END
+[2012-12-13 20:03:09] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 20:03:09] [SERVER] BACKUP REQUEST START
+[2012-12-13 20:03:09] [SERVER] there is no directory : 
+[2012-12-13 20:03:09] [SERVER] Set Backup directory : /tmp/backup/wedmonster/Thu
+[2012-12-13 20:03:09] [SERVER] Get filename from wedmonster[210.117.182.157] : backup.2012-12-13.log
+
+[2012-12-13 20:04:21] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 20:04:21] [SERVER] BACKUP REQUEST START
+[2012-12-13 20:04:21] [SERVER] there is no directory : 
+[2012-12-13 20:04:21] [SERVER] Set Backup directory : /tmp/backup/wedmonster/Thu
+[2012-12-13 20:04:21] [SERVER] Get filename from wedmonster[210.117.182.157] : backup.2012-12-13.log
+
+[2012-12-13 20:04:21] [SERVER] file[/tmp/backup/wedmonster/Thu/backup.2012-12-13.log] is uploaded.
+[2012-12-13 20:04:21] [SERVER] Call: HTMLgen wedmonster 2012-12-13
+[2012-12-13 20:04:21] [SERVER] Get filename from wedmonster[210.117.182.157] : 2012-12-13.tgz
+
+[2012-12-13 20:04:21] [SERVER] file[/tmp/backup/wedmonster/Thu/2012-12-13.tgz] is uploaded.
+[2012-12-13 20:04:21] [SERVER] Call: HTMLgen wedmonster 2012-12-13
+[2012-12-13 20:04:21] [SERVER] BACKUP REQUEST END
+[2012-12-13 20:04:34] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 20:04:34] [SERVER] RECOVERY REQUEST START
+[2012-12-13 20:04:34] [SERVER] set path
+[2012-12-13 20:04:34] [SERVER] There is no File : /tmp/backup/wedmonster/Sun/2011-12-25.tgz
+
+[2012-12-13 20:04:34] [SERVER] There is no File : /tmp/backup/wedmonster/Mon/2011-12-26.tgz
+
+[2012-12-13 20:04:34] [SERVER] There is no File : /tmp/backup/wedmonster/Tue/2011-12-27.tgz
+
+[2012-12-13 20:04:34] [SERVER] There is no File : /tmp/backup/wedmonster/Wed/2011-12-28.tgz
+
+[2012-12-13 20:04:34] [SERVER] There is no File : /tmp/backup/wedmonster/Thu/2011-12-29.tgz
+
+[2012-12-13 20:04:34] [SERVER] There is no File : /tmp/backup/wedmonster/Fri/2011-12-30.tgz
+
+[2012-12-13 20:04:34] [SERVER] There is no File : /tmp/backup/wedmonster/Sat/2011-12-31.tgz
+
+[2012-12-13 20:04:34] [SERVER] RECOVERY REQUEST END
+[2012-12-13 20:04:36] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 20:04:36] [SERVER] RECOVERY REQUEST START
+[2012-12-13 20:04:36] [SERVER] set path
+[2012-12-13 20:04:36] [SERVER] There is no File : /tmp/backup/wedmonster/Sun/2011-12-25.tgz
+
+[2012-12-13 20:04:36] [SERVER] There is no File : /tmp/backup/wedmonster/Mon/2011-12-26.tgz
+
+[2012-12-13 20:04:36] [SERVER] There is no File : /tmp/backup/wedmonster/Tue/2011-12-27.tgz
+
+[2012-12-13 20:04:36] [SERVER] There is no File : /tmp/backup/wedmonster/Wed/2011-12-28.tgz
+
+[2012-12-13 20:04:36] [SERVER] There is no File : /tmp/backup/wedmonster/Thu/2011-12-29.tgz
+
+[2012-12-13 20:04:36] [SERVER] There is no File : /tmp/backup/wedmonster/Fri/2011-12-30.tgz
+
+[2012-12-13 20:04:36] [SERVER] There is no File : /tmp/backup/wedmonster/Sat/2011-12-31.tgz
+
+[2012-12-13 20:04:36] [SERVER] RECOVERY REQUEST END
+[2012-12-13 20:05:46] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 20:05:46] [SERVER] RECOVERY REQUEST START
+[2012-12-13 20:05:46] [SERVER] set path
+[2012-12-13 20:05:46] [SERVER] There is no File : /tmp/backup/wedmonster/Sun/2011-12-25.tgz
+
+[2012-12-13 20:05:46] [SERVER] There is no File : /tmp/backup/wedmonster/Mon/2011-12-26.tgz
+
+[2012-12-13 20:05:46] [SERVER] There is no File : /tmp/backup/wedmonster/Tue/2011-12-27.tgz
+
+[2012-12-13 20:05:46] [SERVER] There is no File : /tmp/backup/wedmonster/Wed/2011-12-28.tgz
+
+[2012-12-13 20:05:46] [SERVER] There is no File : /tmp/backup/wedmonster/Thu/2011-12-29.tgz
+
+[2012-12-13 20:05:46] [SERVER] There is no File : /tmp/backup/wedmonster/Fri/2011-12-30.tgz
+
+[2012-12-13 20:05:46] [SERVER] There is no File : /tmp/backup/wedmonster/Sat/2011-12-31.tgz
+
+[2012-12-13 20:05:46] [SERVER] RECOVERY REQUEST END
+[2012-12-13 20:05:49] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 20:05:49] [SERVER] RECOVERY REQUEST START
+[2012-12-13 20:05:49] [SERVER] set path
+[2012-12-13 20:05:49] [SERVER] There is no File : /tmp/backup/wedmonster/Sun/2012-12-09.tgz
+
+[2012-12-13 20:05:49] [SERVER] There is no File : /tmp/backup/wedmonster/Mon/2012-12-10.tgz
+
+[2012-12-13 20:05:49] [SERVER] There is no File : /tmp/backup/wedmonster/Tue/2012-12-11.tgz
+
+[2012-12-13 20:05:49] [SERVER] There is no File : /tmp/backup/wedmonster/Wed/2012-12-12.tgz
+
+[2012-12-13 20:05:49] [SERVER] RECOVERY REQUEST END
+[2012-12-13 20:09:08] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 20:09:08] [SERVER] RECOVERY REQUEST START
+[2012-12-13 20:09:08] [SERVER] set path
+[2012-12-13 20:09:08] [SERVER] There is no File : /tmp/backup/wedmonster/Sun/2012-12-09.tgz
+
+[2012-12-13 20:09:08] [SERVER] There is no File : /tmp/backup/wedmonster/Mon/2012-12-10.tgz
+
+[2012-12-13 20:09:08] [SERVER] There is no File : /tmp/backup/wedmonster/Tue/2012-12-11.tgz
+
+[2012-12-13 20:09:08] [SERVER] There is no File : /tmp/backup/wedmonster/Wed/2012-12-12.tgz
+
+[2012-12-13 20:09:08] [SERVER] RECOVERY REQUEST END
+[2012-12-13 20:13:56] [SERVER] The maybe backup server is operating.
+[2012-12-13 20:13:56] [SERVER] This servier is listening.
+[2012-12-13 20:15:09] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 20:15:09] [SERVER] RECOVERY REQUEST START
+[2012-12-13 20:15:09] [SERVER] set path
+[2012-12-13 20:15:09] [SERVER] There is no File : /tmp/backup/wedmonster/Sun/2012-12-09.tgz
+
+[2012-12-13 20:15:09] [SERVER] There is no File : /tmp/backup/wedmonster/Mon/2012-12-10.tgz
+
+[2012-12-13 20:15:09] [SERVER] There is no File : /tmp/backup/wedmonster/Tue/2012-12-11.tgz
+
+[2012-12-13 20:15:09] [SERVER] There is no File : /tmp/backup/wedmonster/Wed/2012-12-12.tgz
+
+[2012-12-13 20:15:09] [SERVER] RECOVERY REQUEST END
+[2012-12-13 20:16:09] [SERVER] The maybe backup server is operating.
+[2012-12-13 20:16:09] [SERVER] This servier is listening.
+[2012-12-13 20:16:56] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 20:16:56] [SERVER] RECOVERY REQUEST START
+[2012-12-13 20:16:56] [SERVER] set path
+[2012-12-13 20:16:56] [SERVER] There is no File : /tmp/backup/wedmonster/Sun/2012-12-09.tgz
+
+[2012-12-13 20:16:56] [SERVER] There is no File : /tmp/backup/wedmonster/Mon/2012-12-10.tgz
+
+[2012-12-13 20:16:56] [SERVER] There is no File : /tmp/backup/wedmonster/Tue/2012-12-11.tgz
+
+[2012-12-13 20:16:56] [SERVER] There is no File : /tmp/backup/wedmonster/Wed/2012-12-12.tgz
+
+[2012-12-13 20:16:56] [SERVER] RECOVERY REQUEST END
+[2012-12-13 20:49:27] [SERVER] The maybe backup server is operating.
+[2012-12-13 20:49:27] [SERVER] This servier is listening.
+[2012-12-13 20:50:25] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-13 20:50:25] [SERVER] USER REQUEST START
+[2012-12-13 20:50:25] [SERVER] USER REQIESET END
+[2012-12-13 20:50:45] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-13 20:50:45] [SERVER] BACKUP REQUEST START
+[2012-12-13 20:50:45] [SERVER] there is no directory : 
+[2012-12-13 20:50:45] [SERVER] Set Backup directory : /tmp/backup/montecast/Thu
+[2012-12-13 20:50:45] [SERVER] Get filename from montecast[210.117.182.158] : 2012-12-13.tgz
+
+[2012-12-13 20:50:45] [SERVER] file[/tmp/backup/montecast/Thu/2012-12-13.tgz] is uploaded.
+[2012-12-13 20:50:45] [SERVER] Call: HTMLgen montecast 2012-12-13
+[2012-12-13 20:50:45] [SERVER] Get filename from montecast[210.117.182.158] : backup.2012-12-13.log
+
+[2012-12-13 20:50:45] [SERVER] file[/tmp/backup/montecast/Thu/backup.2012-12-13.log] is uploaded.
+[2012-12-13 20:50:45] [SERVER] Call: HTMLgen montecast 2012-12-13
+[2012-12-13 20:50:45] [SERVER] BACKUP REQUEST END
+[2012-12-13 20:50:57] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-13 20:50:57] [SERVER] RECOVERY REQUEST START
+[2012-12-13 20:50:57] [SERVER] set path
+[2012-12-13 20:50:57] [SERVER] There is no File : /tmp/backup/montecast/Sun/2012-12-09.tgz
+
+[2012-12-13 20:50:57] [SERVER] There is no File : /tmp/backup/montecast/Mon/2012-12-10.tgz
+
+[2012-12-13 20:50:57] [SERVER] There is no File : /tmp/backup/montecast/Tue/2012-12-11.tgz
+
+[2012-12-13 20:50:57] [SERVER] There is no File : /tmp/backup/montecast/Wed/2012-12-12.tgz
+
+[2012-12-13 20:50:57] [SERVER] RECOVERY REQUEST END
+[2012-12-13 21:03:07] [SERVER] The maybe backup server is operating.
+[2012-12-13 21:03:07] [SERVER] This servier is listening.
+[2012-12-13 21:05:39] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 21:05:39] [SERVER] USER REQUEST START
+[2012-12-13 21:05:39] [SERVER] USER REQIESET END
+[2012-12-13 21:05:43] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 21:05:43] [SERVER] BACKUP REQUEST START
+[2012-12-13 21:05:43] [SERVER] there is no directory : 
+[2012-12-13 21:05:43] [SERVER] Set Backup directory : /tmp/backup/wedmonster/Thu
+[2012-12-13 21:05:43] [SERVER] Get filename from wedmonster[210.117.182.157] : backup.2012-12-13.log
+
+[2012-12-13 21:05:43] [SERVER] file[/tmp/backup/wedmonster/Thu/backup.2012-12-13.log] is uploaded.
+[2012-12-13 21:05:43] [SERVER] Call: HTMLgen wedmonster 2012-12-13
+[2012-12-13 21:05:43] [SERVER] Get filename from wedmonster[210.117.182.157] : 2012-12-13.tgz
+
+[2012-12-13 21:05:43] [SERVER] file[/tmp/backup/wedmonster/Thu/2012-12-13.tgz] is uploaded.
+[2012-12-13 21:05:43] [SERVER] Call: HTMLgen wedmonster 2012-12-13
+[2012-12-13 21:05:43] [SERVER] BACKUP REQUEST END
+[2012-12-13 21:05:46] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 21:05:46] [SERVER] RECOVERY REQUEST START
+[2012-12-13 21:05:46] [SERVER] set path
+[2012-12-13 21:05:46] [SERVER] There is no File : /tmp/backup/wedmonster/Sun/2012-12-09.tgz
+
+[2012-12-13 21:05:46] [SERVER] There is no File : /tmp/backup/wedmonster/Mon/2012-12-10.tgz
+
+[2012-12-13 21:05:46] [SERVER] There is no File : /tmp/backup/wedmonster/Tue/2012-12-11.tgz
+
+[2012-12-13 21:05:46] [SERVER] There is no File : /tmp/backup/wedmonster/Wed/2012-12-12.tgz
+
+[2012-12-13 21:05:47] [SERVER] RECOVERY REQUEST END
+[2012-12-13 21:08:43] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 21:08:43] [SERVER] USER REQUEST START
+[2012-12-13 21:08:43] [SERVER] USER REQIESET END
+[2012-12-13 21:08:51] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 21:08:51] [SERVER] BACKUP REQUEST START
+[2012-12-13 21:08:51] [SERVER] there is no directory : 
+[2012-12-13 21:08:51] [SERVER] Set Backup directory : /tmp/backup/wedmonster/Thu
+[2012-12-13 21:08:51] [SERVER] Get filename from wedmonster[210.117.182.157] : backup.2012-12-13.log
+
+[2012-12-13 21:08:51] [SERVER] file[/tmp/backup/wedmonster/Thu/backup.2012-12-13.log] is uploaded.
+[2012-12-13 21:08:51] [SERVER] Call: HTMLgen wedmonster 2012-12-13
+[2012-12-13 21:08:51] [SERVER] Get filename from wedmonster[210.117.182.157] : 2012-12-13.tgz
+
+[2012-12-13 21:08:51] [SERVER] file[/tmp/backup/wedmonster/Thu/2012-12-13.tgz] is uploaded.
+[2012-12-13 21:08:51] [SERVER] Call: HTMLgen wedmonster 2012-12-13
+[2012-12-13 21:08:51] [SERVER] BACKUP REQUEST END
+[2012-12-13 21:09:01] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 21:09:01] [SERVER] RECOVERY REQUEST START
+[2012-12-13 21:09:01] [SERVER] set path
+[2012-12-13 21:09:01] [SERVER] There is no File : /tmp/backup/wedmonster/Sun/2012-12-09.tgz
+
+[2012-12-13 21:09:01] [SERVER] There is no File : /tmp/backup/wedmonster/Mon/2012-12-10.tgz
+
+[2012-12-13 21:09:01] [SERVER] There is no File : /tmp/backup/wedmonster/Tue/2012-12-11.tgz
+
+[2012-12-13 21:09:01] [SERVER] There is no File : /tmp/backup/wedmonster/Wed/2012-12-12.tgz
+
+[2012-12-13 21:09:01] [SERVER] RECOVERY REQUEST END
+[2012-12-13 21:09:29] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 21:09:29] [SERVER] RECOVERY REQUEST START
+[2012-12-13 21:09:29] [SERVER] set path
+[2012-12-13 21:09:29] [SERVER] There is no File : /tmp/backup/wedmonster/Sun/2012-12-09.tgz
+
+[2012-12-13 21:09:29] [SERVER] There is no File : /tmp/backup/wedmonster/Mon/2012-12-10.tgz
+
+[2012-12-13 21:09:29] [SERVER] There is no File : /tmp/backup/wedmonster/Tue/2012-12-11.tgz
+
+[2012-12-13 21:09:29] [SERVER] There is no File : /tmp/backup/wedmonster/Wed/2012-12-12.tgz
+
+[2012-12-13 21:09:29] [SERVER] RECOVERY REQUEST END
+[2012-12-13 21:11:32] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 21:11:32] [SERVER] RECOVERY REQUEST START
+[2012-12-13 21:11:32] [SERVER] set path
+[2012-12-13 21:11:32] [SERVER] There is no File : /tmp/backup/wedmonster/Sun/2012-12-09.tgz
+
+[2012-12-13 21:11:32] [SERVER] There is no File : /tmp/backup/wedmonster/Mon/2012-12-10.tgz
+
+[2012-12-13 21:11:32] [SERVER] There is no File : /tmp/backup/wedmonster/Tue/2012-12-11.tgz
+
+[2012-12-13 21:11:32] [SERVER] There is no File : /tmp/backup/wedmonster/Wed/2012-12-12.tgz
+
+[2012-12-13 21:11:32] [SERVER] RECOVERY REQUEST END
+[2012-12-13 21:15:04] [SERVER] The maybe backup server is operating.
+[2012-12-13 21:15:04] [SERVER] This servier is listening.
+[2012-12-13 21:15:14] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 21:15:14] [SERVER] RECOVERY REQUEST START
+[2012-12-13 21:15:14] [ERROR] user.list file open file.
+[2012-12-13 21:15:24] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 21:15:24] [SERVER] USER REQUEST START
+[2012-12-13 21:15:24] [SERVER] USER REQIESET END
+[2012-12-13 21:15:26] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 21:15:26] [SERVER] RECOVERY REQUEST START
+[2012-12-13 21:15:26] [SERVER] set path
+[2012-12-13 21:15:26] [SERVER] There is no File : /tmp/backup/wedmonster/Sun/2012-12-09.tgz
+
+[2012-12-13 21:15:26] [SERVER] There is no File : /tmp/backup/wedmonster/Mon/2012-12-10.tgz
+
+[2012-12-13 21:15:26] [SERVER] There is no File : /tmp/backup/wedmonster/Tue/2012-12-11.tgz
+
+[2012-12-13 21:15:26] [SERVER] There is no File : /tmp/backup/wedmonster/Wed/2012-12-12.tgz
+
+[2012-12-13 21:15:26] [SERVER] RECOVERY REQUEST END
+[2012-12-13 21:16:39] [SERVER] The maybe backup server is operating.
+[2012-12-13 21:16:39] [SERVER] This servier is listening.
+[2012-12-13 21:16:46] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 21:16:46] [SERVER] RECOVERY REQUEST START
+[2012-12-13 21:16:46] [ERROR] user.list file open file.
+[2012-12-13 21:16:49] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 21:16:49] [SERVER] USER REQUEST START
+[2012-12-13 21:16:49] [SERVER] USER REQIESET END
+[2012-12-13 21:16:51] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 21:16:51] [SERVER] RECOVERY REQUEST START
+[2012-12-13 21:16:51] [SERVER] set path
+[2012-12-13 21:16:51] [SERVER] There is no File : /tmp/backup/wedmonster/Sun/2012-12-09.tgz
+
+[2012-12-13 21:16:51] [SERVER] There is no File : /tmp/backup/wedmonster/Mon/2012-12-10.tgz
+
+[2012-12-13 21:16:51] [SERVER] There is no File : /tmp/backup/wedmonster/Tue/2012-12-11.tgz
+
+[2012-12-13 21:16:51] [SERVER] There is no File : /tmp/backup/wedmonster/Wed/2012-12-12.tgz
+
+[2012-12-13 21:16:51] [SERVER] RECOVERY REQUEST END
+[2012-12-13 21:18:50] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 21:18:50] [SERVER] RECOVERY REQUEST START
+[2012-12-13 21:18:50] [SERVER] set path
+[2012-12-13 21:18:50] [SERVER] There is no File : /tmp/backup/wedmonster/Sun/2012-12-09.tgz
+
+[2012-12-13 21:18:50] [SERVER] There is no File : /tmp/backup/wedmonster/Mon/2012-12-10.tgz
+
+[2012-12-13 21:18:50] [SERVER] There is no File : /tmp/backup/wedmonster/Tue/2012-12-11.tgz
+
+[2012-12-13 21:18:50] [SERVER] There is no File : /tmp/backup/wedmonster/Wed/2012-12-12.tgz
+
+[2012-12-13 21:18:50] [SERVER] RECOVERY REQUEST END
+[2012-12-13 21:19:02] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 21:19:02] [SERVER] RECOVERY REQUEST START
+[2012-12-13 21:19:02] [SERVER] set path
+[2012-12-13 21:19:02] [SERVER] There is no File : /tmp/backup/wedmonster/Sun/2012-12-09.tgz
+
+[2012-12-13 21:19:02] [SERVER] There is no File : /tmp/backup/wedmonster/Mon/2012-12-10.tgz
+
+[2012-12-13 21:19:02] [SERVER] There is no File : /tmp/backup/wedmonster/Tue/2012-12-11.tgz
+
+[2012-12-13 21:19:02] [SERVER] There is no File : /tmp/backup/wedmonster/Wed/2012-12-12.tgz
+
+[2012-12-13 21:19:02] [SERVER] RECOVERY REQUEST END
+[2012-12-13 21:24:09] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 21:24:09] [SERVER] RECOVERY REQUEST START
+[2012-12-13 21:24:09] [SERVER] set path
+[2012-12-13 21:24:09] [SERVER] There is no File : /tmp/backup/wedmonster/Sun/2012-12-09.tgz
+
+[2012-12-13 21:24:09] [SERVER] There is no File : /tmp/backup/wedmonster/Mon/2012-12-10.tgz
+
+[2012-12-13 21:24:09] [SERVER] There is no File : /tmp/backup/wedmonster/Tue/2012-12-11.tgz
+
+[2012-12-13 21:24:09] [SERVER] There is no File : /tmp/backup/wedmonster/Wed/2012-12-12.tgz
+
+[2012-12-13 21:24:09] [SERVER] RECOVERY REQUEST END
+[2012-12-13 21:26:45] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 21:26:45] [SERVER] RECOVERY REQUEST START
+[2012-12-13 21:26:45] [SERVER] set path
+[2012-12-13 21:26:45] [SERVER] There is no File : /tmp/backup/wedmonster/Sun/2012-12-09.tgz
+
+[2012-12-13 21:26:45] [SERVER] There is no File : /tmp/backup/wedmonster/Mon/2012-12-10.tgz
+
+[2012-12-13 21:26:45] [SERVER] There is no File : /tmp/backup/wedmonster/Tue/2012-12-11.tgz
+
+[2012-12-13 21:26:45] [SERVER] There is no File : /tmp/backup/wedmonster/Wed/2012-12-12.tgz
+
+[2012-12-13 21:26:45] [SERVER] RECOVERY REQUEST END
+[2012-12-13 21:26:46] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 21:26:46] [SERVER] RECOVERY REQUEST START
+[2012-12-13 21:26:46] [SERVER] set path
+[2012-12-13 21:26:46] [SERVER] There is no File : /tmp/backup/wedmonster/Sun/2012-12-09.tgz
+
+[2012-12-13 21:26:46] [SERVER] There is no File : /tmp/backup/wedmonster/Mon/2012-12-10.tgz
+
+[2012-12-13 21:26:46] [SERVER] There is no File : /tmp/backup/wedmonster/Tue/2012-12-11.tgz
+
+[2012-12-13 21:26:46] [SERVER] There is no File : /tmp/backup/wedmonster/Wed/2012-12-12.tgz
+
+[2012-12-13 21:26:46] [SERVER] RECOVERY REQUEST END
+[2012-12-13 21:26:48] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 21:26:48] [SERVER] RECOVERY REQUEST START
+[2012-12-13 21:26:48] [SERVER] set path
+[2012-12-13 21:26:48] [SERVER] There is no File : /tmp/backup/wedmonster/Sun/2012-12-09.tgz
+
+[2012-12-13 21:26:48] [SERVER] There is no File : /tmp/backup/wedmonster/Mon/2012-12-10.tgz
+
+[2012-12-13 21:26:48] [SERVER] There is no File : /tmp/backup/wedmonster/Tue/2012-12-11.tgz
+
+[2012-12-13 21:26:48] [SERVER] There is no File : /tmp/backup/wedmonster/Wed/2012-12-12.tgz
+
+[2012-12-13 21:26:48] [SERVER] RECOVERY REQUEST END
+[2012-12-13 21:27:03] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 21:27:03] [SERVER] RECOVERY REQUEST START
+[2012-12-13 21:27:03] [SERVER] set path
+[2012-12-13 21:27:03] [SERVER] There is no File : /tmp/backup/wedmonster/Sun/2012-12-09.tgz
+
+[2012-12-13 21:27:03] [SERVER] There is no File : /tmp/backup/wedmonster/Mon/2012-12-10.tgz
+
+[2012-12-13 21:27:03] [SERVER] There is no File : /tmp/backup/wedmonster/Tue/2012-12-11.tgz
+
+[2012-12-13 21:27:03] [SERVER] There is no File : /tmp/backup/wedmonster/Wed/2012-12-12.tgz
+
+[2012-12-13 21:27:26] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 21:27:26] [SERVER] RECOVERY REQUEST START
+[2012-12-13 21:27:26] [SERVER] set path
+[2012-12-13 21:27:26] [SERVER] There is no File : /tmp/backup/wedmonster/Sun/2012-12-09.tgz
+
+[2012-12-13 21:27:26] [SERVER] There is no File : /tmp/backup/wedmonster/Mon/2012-12-10.tgz
+
+[2012-12-13 21:27:26] [SERVER] There is no File : /tmp/backup/wedmonster/Tue/2012-12-11.tgz
+
+[2012-12-13 21:27:26] [SERVER] There is no File : /tmp/backup/wedmonster/Wed/2012-12-12.tgz
+
+[2012-12-13 21:27:26] [SERVER] RECOVERY REQUEST END
+[2012-12-13 21:28:32] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 21:28:32] [SERVER] RECOVERY REQUEST START
+[2012-12-13 21:28:32] [SERVER] set path
+[2012-12-13 21:28:32] [SERVER] RECOVERY REQUEST END
+[2012-12-13 21:28:41] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 21:28:41] [SERVER] RECOVERY REQUEST START
+[2012-12-13 21:28:41] [SERVER] set path
+[2012-12-13 21:28:41] [SERVER] RECOVERY REQUEST END
+[2012-12-13 21:29:00] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 21:29:00] [SERVER] RECOVERY REQUEST START
+[2012-12-13 21:29:00] [SERVER] set path
+[2012-12-13 21:29:00] [SERVER] There is no File : /tmp/backup/wedmonster/Sun/2012-12-09.tgz
+
+[2012-12-13 21:29:00] [SERVER] There is no File : /tmp/backup/wedmonster/Mon/2012-12-10.tgz
+
+[2012-12-13 21:29:00] [SERVER] There is no File : /tmp/backup/wedmonster/Tue/2012-12-11.tgz
+
+[2012-12-13 21:29:00] [SERVER] There is no File : /tmp/backup/wedmonster/Wed/2012-12-12.tgz
+
+[2012-12-13 21:29:00] [SERVER] RECOVERY REQUEST END
+[2012-12-13 21:29:05] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 21:29:05] [SERVER] RECOVERY REQUEST START
+[2012-12-13 21:29:05] [SERVER] set path
+[2012-12-13 21:29:05] [SERVER] There is no File : /tmp/backup/wedmonster/Sun/2012-12-09.tgz
+
+[2012-12-13 21:29:05] [SERVER] There is no File : /tmp/backup/wedmonster/Mon/2012-12-10.tgz
+
+[2012-12-13 21:29:05] [SERVER] There is no File : /tmp/backup/wedmonster/Tue/2012-12-11.tgz
+
+[2012-12-13 21:29:05] [SERVER] There is no File : /tmp/backup/wedmonster/Wed/2012-12-12.tgz
+
+[2012-12-13 21:29:05] [SERVER] RECOVERY REQUEST END
+[2012-12-13 21:37:03] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 21:37:03] [SERVER] RECOVERY REQUEST START
+[2012-12-13 21:37:03] [SERVER] set path
+[2012-12-13 21:37:03] [SERVER] There is no File : /tmp/backup/wedmonster/Sun/2012-12-09.tgz
+
+[2012-12-13 21:37:03] [SERVER] There is no File : /tmp/backup/wedmonster/Mon/2012-12-10.tgz
+
+[2012-12-13 21:37:03] [SERVER] There is no File : /tmp/backup/wedmonster/Tue/2012-12-11.tgz
+
+[2012-12-13 21:37:03] [SERVER] There is no File : /tmp/backup/wedmonster/Wed/2012-12-12.tgz
+
+[2012-12-13 21:37:03] [SERVER] RECOVERY REQUEST END
+[2012-12-13 21:37:15] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 21:37:15] [SERVER] RECOVERY REQUEST START
+[2012-12-13 21:37:15] [SERVER] set path
+[2012-12-13 21:37:15] [SERVER] There is no File : /tmp/backup/wedmonster/Sun/2012-12-09.tgz
+
+[2012-12-13 21:37:15] [SERVER] There is no File : /tmp/backup/wedmonster/Mon/2012-12-10.tgz
+
+[2012-12-13 21:37:15] [SERVER] There is no File : /tmp/backup/wedmonster/Tue/2012-12-11.tgz
+
+[2012-12-13 21:37:15] [SERVER] There is no File : /tmp/backup/wedmonster/Wed/2012-12-12.tgz
+
+[2012-12-13 21:37:15] [SERVER] RECOVERY REQUEST END
+[2012-12-13 21:37:26] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 21:37:26] [SERVER] RECOVERY REQUEST START
+[2012-12-13 21:37:26] [SERVER] set path
+[2012-12-13 21:37:26] [SERVER] There is no File : /tmp/backup/wedmonster/Sun/2012-12-09.tgz
+
+[2012-12-13 21:37:26] [SERVER] There is no File : /tmp/backup/wedmonster/Mon/2012-12-10.tgz
+
+[2012-12-13 21:37:26] [SERVER] There is no File : /tmp/backup/wedmonster/Tue/2012-12-11.tgz
+
+[2012-12-13 21:37:26] [SERVER] There is no File : /tmp/backup/wedmonster/Wed/2012-12-12.tgz
+
+[2012-12-13 21:37:26] [SERVER] RECOVERY REQUEST END
+[2012-12-13 21:38:53] [SERVER] The maybe backup server is operating.
+[2012-12-13 21:38:53] [SERVER] This servier is listening.
+[2012-12-13 21:39:06] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 21:39:06] [SERVER] RECOVERY REQUEST START
+[2012-12-13 21:39:06] [ERROR] user.list file open file.
+[2012-12-13 21:39:10] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 21:39:10] [SERVER] RECOVERY REQUEST START
+[2012-12-13 21:39:10] [ERROR] user.list file open file.
+[2012-12-13 21:39:14] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 21:39:14] [SERVER] USER REQUEST START
+[2012-12-13 21:39:14] [SERVER] USER REQIESET END
+[2012-12-13 21:39:16] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 21:39:16] [SERVER] USER REQUEST START
+[2012-12-13 21:39:16] [SERVER] The client is already enrolled.
+[2012-12-13 21:39:16] [SERVER] USER REQIESET END
+[2012-12-13 21:39:17] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 21:39:17] [SERVER] RECOVERY REQUEST START
+[2012-12-13 21:39:17] [SERVER] set path
+[2012-12-13 21:39:17] [SERVER] There is no File : /tmp/backup/wedmonster/Sun/2012-12-09.tgz
+
+[2012-12-13 21:39:17] [SERVER] There is no File : /tmp/backup/wedmonster/Mon/2012-12-10.tgz
+
+[2012-12-13 21:39:17] [SERVER] There is no File : /tmp/backup/wedmonster/Tue/2012-12-11.tgz
+
+[2012-12-13 21:39:17] [SERVER] There is no File : /tmp/backup/wedmonster/Wed/2012-12-12.tgz
+
+[2012-12-13 21:39:17] [SERVER] RECOVERY REQUEST END
+[2012-12-13 21:42:52] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 21:42:52] [SERVER] RECOVERY REQUEST START
+[2012-12-13 21:42:52] [SERVER] set path
+[2012-12-13 21:42:52] [SERVER] There is no File : /tmp/backup/wedmonster/Sun/2012-12-09.tgz
+
+[2012-12-13 21:42:52] [SERVER] There is no File : /tmp/backup/wedmonster/Mon/2012-12-10.tgz
+
+[2012-12-13 21:42:52] [SERVER] There is no File : /tmp/backup/wedmonster/Tue/2012-12-11.tgz
+
+[2012-12-13 21:42:52] [SERVER] There is no File : /tmp/backup/wedmonster/Wed/2012-12-12.tgz
+
+[2012-12-13 21:42:52] [SERVER] RECOVERY REQUEST END
+[2012-12-13 21:43:02] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 21:43:02] [SERVER] RECOVERY REQUEST START
+[2012-12-13 21:43:02] [SERVER] set path
+[2012-12-13 21:43:03] [SERVER] There is no File : /tmp/backup/wedmonster/Sun/2012-12-09.tgz
+
+[2012-12-13 21:43:03] [SERVER] There is no File : /tmp/backup/wedmonster/Mon/2012-12-10.tgz
+
+[2012-12-13 21:43:03] [SERVER] There is no File : /tmp/backup/wedmonster/Tue/2012-12-11.tgz
+
+[2012-12-13 21:43:03] [SERVER] There is no File : /tmp/backup/wedmonster/Wed/2012-12-12.tgz
+
+[2012-12-13 21:43:03] [SERVER] RECOVERY REQUEST END
+[2012-12-13 21:43:06] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 21:43:06] [SERVER] RECOVERY REQUEST START
+[2012-12-13 21:43:06] [SERVER] set path
+[2012-12-13 21:43:06] [SERVER] There is no File : /tmp/backup/wedmonster/Sun/2012-12-09.tgz
+
+[2012-12-13 21:43:06] [SERVER] There is no File : /tmp/backup/wedmonster/Mon/2012-12-10.tgz
+
+[2012-12-13 21:43:06] [SERVER] There is no File : /tmp/backup/wedmonster/Tue/2012-12-11.tgz
+
+[2012-12-13 21:43:06] [SERVER] There is no File : /tmp/backup/wedmonster/Wed/2012-12-12.tgz
+
+[2012-12-13 21:43:06] [SERVER] RECOVERY REQUEST END
+[2012-12-13 21:47:43] [SERVER] The maybe backup server is operating.
+[2012-12-13 21:47:43] [SERVER] This servier is listening.
+[2012-12-13 21:47:51] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 21:47:51] [SERVER] USER REQUEST START
+[2012-12-13 21:47:52] [SERVER] USER REQIESET END
+[2012-12-13 21:47:59] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 21:47:59] [SERVER] RECOVERY REQUEST START
+[2012-12-13 21:47:59] [SERVER] set path
+[2012-12-13 21:47:59] [SERVER] There is no File : /tmp/backup/wedmonster/Sun/2012-12-09.tgz
+
+[2012-12-13 21:47:59] [SERVER] There is no File : /tmp/backup/wedmonster/Mon/2012-12-10.tgz
+
+[2012-12-13 21:47:59] [SERVER] There is no File : /tmp/backup/wedmonster/Tue/2012-12-11.tgz
+
+[2012-12-13 21:47:59] [SERVER] There is no File : /tmp/backup/wedmonster/Wed/2012-12-12.tgz
+
+[2012-12-13 21:47:59] [SERVER] RECOVERY REQUEST END
+[2012-12-13 21:48:22] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 21:48:22] [SERVER] RECOVERY REQUEST START
+[2012-12-13 21:48:22] [SERVER] set path
+[2012-12-13 21:48:22] [SERVER] There is no File : /tmp/backup/wedmonster/Sun/2012-12-09.tgz
+
+[2012-12-13 21:48:22] [SERVER] There is no File : /tmp/backup/wedmonster/Mon/2012-12-10.tgz
+
+[2012-12-13 21:48:22] [SERVER] There is no File : /tmp/backup/wedmonster/Tue/2012-12-11.tgz
+
+[2012-12-13 21:48:22] [SERVER] There is no File : /tmp/backup/wedmonster/Wed/2012-12-12.tgz
+
+[2012-12-13 21:48:22] [SERVER] RECOVERY REQUEST END
+[2012-12-13 21:52:20] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 21:52:20] [SERVER] RECOVERY REQUEST START
+[2012-12-13 21:52:20] [SERVER] set path
+[2012-12-13 21:52:20] [SERVER] There is no File : /tmp/backup/wedmonster/Sun/2012-12-09.tgz
+
+[2012-12-13 21:52:20] [SERVER] There is no File : /tmp/backup/wedmonster/Mon/2012-12-10.tgz
+
+[2012-12-13 21:52:20] [SERVER] There is no File : /tmp/backup/wedmonster/Tue/2012-12-11.tgz
+
+[2012-12-13 21:52:20] [SERVER] There is no File : /tmp/backup/wedmonster/Wed/2012-12-12.tgz
+
+[2012-12-13 21:52:20] [SERVER] RECOVERY REQUEST END
+[2012-12-13 21:53:56] [SERVER] The maybe backup server is operating.
+[2012-12-13 21:53:56] [SERVER] This servier is listening.
+[2012-12-13 21:54:02] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 21:54:02] [SERVER] RECOVERY REQUEST START
+[2012-12-13 21:54:02] [SERVER] set path
+[2012-12-13 21:54:02] [SERVER] There is no File : /tmp/backup/wedmonster/Sun/2012-12-09.tgz
+
+[2012-12-13 21:54:02] [SERVER] There is no File : /tmp/backup/wedmonster/Mon/2012-12-10.tgz
+
+[2012-12-13 21:54:02] [SERVER] There is no File : /tmp/backup/wedmonster/Tue/2012-12-11.tgz
+
+[2012-12-13 21:54:02] [SERVER] There is no File : /tmp/backup/wedmonster/Wed/2012-12-12.tgz
+
+[2012-12-13 21:54:02] [SERVER] RECOVERY REQUEST END
+[2012-12-13 21:56:42] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-13 21:56:42] [SERVER] USER REQUEST START
+[2012-12-13 21:56:42] [SERVER] USER REQIESET END
+[2012-12-13 21:56:45] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-13 21:56:45] [SERVER] BACKUP REQUEST START
+[2012-12-13 21:56:45] [SERVER] there is no directory : 
+[2012-12-13 21:56:45] [SERVER] Set Backup directory : /tmp/backup/montecast/Thu
+[2012-12-13 21:56:45] [SERVER] Get filename from montecast[210.117.182.158] : 2012-12-13.tgz
+
+[2012-12-13 21:56:45] [SERVER] file[/tmp/backup/montecast/Thu/2012-12-13.tgz] is uploaded.
+[2012-12-13 21:56:45] [SERVER] Call: HTMLgen montecast 2012-12-13
+[2012-12-13 21:56:45] [SERVER] Get filename from montecast[210.117.182.158] : backup.2012-12-13.log
+
+[2012-12-13 21:56:45] [SERVER] file[/tmp/backup/montecast/Thu/backup.2012-12-13.log] is uploaded.
+[2012-12-13 21:56:45] [SERVER] Call: HTMLgen montecast 2012-12-13
+[2012-12-13 21:56:45] [SERVER] BACKUP REQUEST END
+[2012-12-13 21:57:00] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-13 21:57:00] [SERVER] BACKUP REQUEST START
+[2012-12-13 21:57:00] [SERVER] there is no directory : 
+[2012-12-13 21:57:00] [SERVER] Set Backup directory : /tmp/backup/montecast/Thu
+[2012-12-13 21:57:00] [SERVER] Get filename from montecast[210.117.182.158] : 2012-12-13.tgz
+
+[2012-12-13 21:57:00] [SERVER] file[/tmp/backup/montecast/Thu/2012-12-13.tgz] is uploaded.
+[2012-12-13 21:57:00] [SERVER] Call: HTMLgen montecast 2012-12-13
+[2012-12-13 21:57:00] [SERVER] Get filename from montecast[210.117.182.158] : backup.2012-12-13.log
+
+[2012-12-13 21:57:00] [SERVER] file[/tmp/backup/montecast/Thu/backup.2012-12-13.log] is uploaded.
+[2012-12-13 21:57:00] [SERVER] Call: HTMLgen montecast 2012-12-13
+[2012-12-13 21:57:00] [SERVER] BACKUP REQUEST END
+[2012-12-13 21:57:11] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-13 21:57:11] [SERVER] RECOVERY REQUEST START
+[2012-12-13 21:57:11] [SERVER] set path
+[2012-12-13 21:57:11] [SERVER] There is no File : /tmp/backup/montecast/Sun/2012-12-09.tgz
+
+[2012-12-13 21:57:11] [SERVER] There is no File : /tmp/backup/montecast/Mon/2012-12-10.tgz
+
+[2012-12-13 21:57:11] [SERVER] There is no File : /tmp/backup/montecast/Tue/2012-12-11.tgz
+
+[2012-12-13 21:57:11] [SERVER] There is no File : /tmp/backup/montecast/Wed/2012-12-12.tgz
+
+[2012-12-13 21:57:11] [SERVER] RECOVERY REQUEST END
+[2012-12-13 21:58:26] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-13 21:58:26] [SERVER] BACKUP REQUEST START
+[2012-12-13 21:58:26] [SERVER] there is no directory : 
+[2012-12-13 21:58:26] [SERVER] Set Backup directory : /tmp/backup/montecast/Thu
+[2012-12-13 21:58:26] [SERVER] Get filename from montecast[210.117.182.158] : 2012-12-13.tgz
+
+[2012-12-13 21:58:26] [SERVER] file[/tmp/backup/montecast/Thu/2012-12-13.tgz] is uploaded.
+[2012-12-13 21:58:26] [SERVER] Call: HTMLgen montecast 2012-12-13
+[2012-12-13 21:58:26] [SERVER] Get filename from montecast[210.117.182.158] : backup.2012-12-13.log
+
+[2012-12-13 21:58:26] [SERVER] file[/tmp/backup/montecast/Thu/backup.2012-12-13.log] is uploaded.
+[2012-12-13 21:58:26] [SERVER] Call: HTMLgen montecast 2012-12-13
+[2012-12-13 21:58:26] [SERVER] BACKUP REQUEST END
+[2012-12-13 21:58:37] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-13 21:58:37] [SERVER] RECOVERY REQUEST START
+[2012-12-13 21:58:37] [SERVER] set path
+[2012-12-13 21:58:37] [SERVER] There is no File : /tmp/backup/montecast/Sun/2012-12-09.tgz
+
+[2012-12-13 21:58:37] [SERVER] There is no File : /tmp/backup/montecast/Mon/2012-12-10.tgz
+
+[2012-12-13 21:58:37] [SERVER] There is no File : /tmp/backup/montecast/Tue/2012-12-11.tgz
+
+[2012-12-13 21:58:37] [SERVER] There is no File : /tmp/backup/montecast/Wed/2012-12-12.tgz
+
+[2012-12-13 22:05:13] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 22:05:13] [SERVER] RECOVERY REQUEST START
+[2012-12-13 22:05:13] [SERVER] set path
+[2012-12-13 22:05:13] [SERVER] There is no File : /tmp/backup/wedmonster/Sun/2012-12-09.tgz
+
+[2012-12-13 22:05:13] [SERVER] There is no File : /tmp/backup/wedmonster/Mon/2012-12-10.tgz
+
+[2012-12-13 22:05:13] [SERVER] There is no File : /tmp/backup/wedmonster/Tue/2012-12-11.tgz
+
+[2012-12-13 22:05:13] [SERVER] There is no File : /tmp/backup/wedmonster/Wed/2012-12-12.tgz
+
+[2012-12-13 22:05:13] [SERVER] RECOVERY REQUEST END
+[2012-12-13 22:09:54] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-13 22:09:54] [SERVER] RECOVERY REQUEST START
+[2012-12-13 22:09:54] [SERVER] set path
+[2012-12-13 22:09:54] [SERVER] There is no File : /tmp/backup/wedmonster/Sun/2012-12-09.tgz
+
+[2012-12-13 22:09:54] [SERVER] There is no File : /tmp/backup/wedmonster/Mon/2012-12-10.tgz
+
+[2012-12-13 22:09:54] [SERVER] There is no File : /tmp/backup/wedmonster/Tue/2012-12-11.tgz
+
+[2012-12-13 22:09:54] [SERVER] There is no File : /tmp/backup/wedmonster/Wed/2012-12-12.tgz
+
+[2012-12-13 22:09:54] [SERVER] RECOVERY REQUEST END
+[2012-12-13 22:19:34] [SERVER] The maybe backup server is operating.
+[2012-12-13 22:19:34] [SERVER] This servier is listening.
+[2012-12-13 22:19:36] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-13 22:19:36] [SERVER] USER REQUEST START
+[2012-12-13 22:19:36] [SERVER] USER REQIESET END
+[2012-12-13 22:19:40] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-13 22:19:40] [SERVER] BACKUP REQUEST START
+[2012-12-13 22:19:40] [SERVER] there is no directory : 
+[2012-12-13 22:19:40] [SERVER] Set Backup directory : /tmp/backup/montecast/Thu
+[2012-12-13 22:19:40] [SERVER] Get filename from montecast[210.117.182.158] : 2012-12-13.tgz
+
+[2012-12-13 22:21:41] [SERVER] The maybe backup server is operating.
+[2012-12-13 22:21:41] [ERROR] bind error
+[2012-12-13 22:24:54] [SERVER] The maybe backup server is operating.
+[2012-12-13 22:24:54] [SERVER] This servier is listening.
+[2012-12-13 22:25:01] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-13 22:25:01] [SERVER] USER REQUEST START
+[2012-12-13 22:25:01] [SERVER] The client is already enrolled.
+[2012-12-13 22:25:01] [SERVER] USER REQIESET END
+[2012-12-13 22:25:34] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-13 22:25:34] [SERVER] RECOVERY REQUEST START
+[2012-12-13 22:25:34] [SERVER] set path
+[2012-12-13 22:25:34] [SERVER] RECOVERY REQUEST END
+[2012-12-13 22:26:35] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-13 22:26:35] [SERVER] BACKUP REQUEST START
+[2012-12-13 22:26:35] [SERVER] there is no directory : 
+[2012-12-13 22:26:35] [SERVER] Set Backup directory : /tmp/backup/montecast/Thu
+[2012-12-13 22:26:35] [SERVER] Get filename from montecast[210.117.182.158] : 2012-12-13.tgz
+
+[2012-12-13 22:30:05] [SERVER] The maybe backup server is operating.
+[2012-12-13 22:30:05] [ERROR] bind error
+[2012-12-13 22:30:28] [SERVER] The maybe backup server is operating.
+[2012-12-13 22:30:28] [SERVER] This servier is listening.
+[2012-12-13 22:30:34] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-13 22:30:34] [SERVER] USER REQUEST START
+[2012-12-13 22:30:34] [SERVER] USER REQIESET END
+[2012-12-13 22:31:02] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-13 22:31:02] [SERVER] BACKUP REQUEST START
+[2012-12-13 22:31:02] [SERVER] there is no directory : 
+[2012-12-13 22:31:02] [SERVER] Set Backup directory : /tmp/backup/montecast/Thu
+[2012-12-13 22:31:02] [SERVER] Get filename from montecast[210.117.182.158] : 2012-12-13.tgz
+
+[2012-12-13 22:34:52] [SERVER] The maybe backup server is operating.
+[2012-12-13 22:34:52] [SERVER] This servier is listening.
+[2012-12-13 22:35:25] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-13 22:35:25] [SERVER] USER REQUEST START
+[2012-12-13 22:35:25] [SERVER] USER REQIESET END
+[2012-12-13 22:35:47] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-13 22:35:47] [SERVER] BACKUP REQUEST START
+[2012-12-13 22:35:47] [SERVER] there is no directory : 
+[2012-12-13 22:35:47] [SERVER] Set Backup directory : /tmp/backup/montecast/Thu
+[2012-12-13 22:35:47] [SERVER] Get filename from montecast[210.117.182.158] : 2012-12-13.tgz
+
+[2012-12-13 22:53:59] [SERVER] The maybe backup server is operating.
+[2012-12-13 22:53:59] [SERVER] This servier is listening.
+[2012-12-13 22:54:08] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-13 22:54:08] [SERVER] USER REQUEST START
+[2012-12-13 22:54:08] [SERVER] USER REQIESET END
+[2012-12-13 22:54:15] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-13 22:54:15] [SERVER] BACKUP REQUEST START
+[2012-12-13 22:54:15] [SERVER] there is no directory : 
+[2012-12-13 22:54:15] [SERVER] Set Backup directory : /tmp/backup/montecast/Thu
+[2012-12-13 22:54:15] [SERVER] Get filename from montecast[210.117.182.158] : 2012-12-13.tgz
+
+[2012-12-13 22:54:42] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-13 22:54:42] [SERVER] BACKUP REQUEST START
+[2012-12-13 22:54:42] [SERVER] there is no directory : 
+[2012-12-13 22:54:42] [SERVER] Set Backup directory : /tmp/backup/montecast/Thu
+[2012-12-13 22:54:42] [SERVER] Get filename from montecast[210.117.182.158] : 2012-12-13.tgz
+
+[2012-12-13 22:57:06] [SERVER] The maybe backup server is operating.
+[2012-12-13 22:57:06] [SERVER] This servier is listening.
+[2012-12-13 22:57:39] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-13 22:57:39] [SERVER] BACKUP REQUEST START
+[2012-12-13 22:57:39] [SERVER] there is no directory : 
+[2012-12-13 22:57:39] [SERVER] Set Backup directory : /tmp/backup/montecast/Thu
+[2012-12-13 22:57:39] [SERVER] Get filename from montecast[210.117.182.158] : 2012-12-13.tgz
+
+[2012-12-13 23:00:40] [SERVER] The maybe backup server is operating.
+[2012-12-13 23:00:40] [SERVER] This servier is listening.
+[2012-12-13 23:01:16] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-13 23:01:16] [SERVER] BACKUP REQUEST START
+[2012-12-13 23:01:16] [SERVER] there is no directory : 
+[2012-12-13 23:01:16] [SERVER] Set Backup directory : /tmp/backup/montecast/Thu
+[2012-12-13 23:01:16] [SERVER] Get filename from montecast[210.117.182.158] : 2012-12-13.tgz
+
+[2012-12-13 23:06:47] [SERVER] The maybe backup server is operating.
+[2012-12-13 23:06:47] [ERROR] bind error
+[2012-12-13 23:06:59] [SERVER] The maybe backup server is operating.
+[2012-12-13 23:06:59] [SERVER] This servier is listening.
+[2012-12-13 23:07:04] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-13 23:07:04] [SERVER] USER REQUEST START
+[2012-12-13 23:07:04] [SERVER] USER REQIESET END
+[2012-12-13 23:07:06] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-13 23:07:06] [SERVER] BACKUP REQUEST START
+[2012-12-13 23:07:06] [SERVER] there is no directory : 
+[2012-12-13 23:07:06] [SERVER] Set Backup directory : /tmp/backup/montecast/Thu
+[2012-12-13 23:07:06] [SERVER] Get filename from montecast[210.117.182.158] : 2012-12-13.tgz
+
+[2012-12-13 23:07:06] [SERVER] file[/tmp/backup/montecast/Thu/2012-12-13.tgz] is uploaded.
+[2012-12-13 23:07:06] [SERVER] Call: HTMLgen montecast 2012-12-13
+[2012-12-13 23:07:06] [SERVER] Get filename from montecast[210.117.182.158] : backup.2012-12-13.log
+
+[2012-12-13 23:07:06] [SERVER] file[/tmp/backup/montecast/Thu/backup.2012-12-13.log] is uploaded.
+[2012-12-13 23:07:06] [SERVER] Call: HTMLgen montecast 2012-12-13
+[2012-12-13 23:07:06] [SERVER] BACKUP REQUEST END
+[2012-12-13 23:08:56] [SERVER] The maybe backup server is operating.
+[2012-12-13 23:08:56] [SERVER] This servier is listening.
+[2012-12-13 23:09:04] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-13 23:09:04] [SERVER] USER REQUEST START
+[2012-12-13 23:09:04] [SERVER] USER REQIESET END
+[2012-12-13 23:09:06] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-13 23:09:06] [SERVER] BACKUP REQUEST START
+[2012-12-13 23:09:06] [SERVER] there is no directory : 
+[2012-12-13 23:09:06] [SERVER] Set Backup directory : /tmp/backup/montecast/Thu
+[2012-12-13 23:09:06] [SERVER] Get filename from montecast[210.117.182.158] : 2012-12-13.tgz
+
+[2012-12-13 23:11:14] [SERVER] The maybe backup server is operating.
+[2012-12-13 23:11:14] [ERROR] bind error
+[2012-12-13 23:11:32] [SERVER] The maybe backup server is operating.
+[2012-12-13 23:11:32] [SERVER] This servier is listening.
+[2012-12-13 23:11:37] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-13 23:11:37] [SERVER] USER REQUEST START
+[2012-12-13 23:11:37] [SERVER] USER REQIESET END
+[2012-12-13 23:11:42] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-13 23:11:42] [SERVER] BACKUP REQUEST START
+[2012-12-13 23:11:42] [SERVER] there is no directory : 
+[2012-12-13 23:11:42] [SERVER] Set Backup directory : /tmp/backup/montecast/Thu
+[2012-12-13 23:11:42] [SERVER] Get filename from montecast[210.117.182.158] : 2012-12-13.tgz
+
+[2012-12-13 23:14:23] [SERVER] The maybe backup server is operating.
+[2012-12-13 23:14:23] [ERROR] bind error
+[2012-12-13 23:14:35] [SERVER] The maybe backup server is operating.
+[2012-12-13 23:14:35] [SERVER] This servier is listening.
+[2012-12-13 23:14:39] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-13 23:14:39] [SERVER] USER REQUEST START
+[2012-12-13 23:14:39] [SERVER] USER REQIESET END
+[2012-12-13 23:14:41] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-13 23:14:41] [SERVER] BACKUP REQUEST START
+[2012-12-13 23:14:41] [SERVER] there is no directory : 
+[2012-12-13 23:14:42] [SERVER] Set Backup directory : /tmp/backup/montecast/Thu
+[2012-12-13 23:14:42] [SERVER] Get filename from montecast[210.117.182.158] : 2012-12-13.tgz
+
+[2012-12-13 23:19:17] [SERVER] The maybe backup server is operating.
+[2012-12-13 23:19:17] [ERROR] bind error
+[2012-12-13 23:19:33] [SERVER] The maybe backup server is operating.
+[2012-12-13 23:19:33] [SERVER] This servier is listening.
+[2012-12-13 23:19:47] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-13 23:19:47] [SERVER] USER REQUEST START
+[2012-12-13 23:19:47] [SERVER] USER REQIESET END
+[2012-12-13 23:20:30] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-13 23:20:30] [SERVER] BACKUP REQUEST START
+[2012-12-13 23:20:30] [SERVER] there is no directory : 
+[2012-12-13 23:20:30] [SERVER] Set Backup directory : /tmp/backup/montecast/Thu
+[2012-12-13 23:20:30] [SERVER] Get filename from montecast[210.117.182.158] : 2012-12-13.tgz
+
+[2012-12-13 23:33:57] [SERVER] The maybe backup server is operating.
+[2012-12-13 23:33:57] [ERROR] bind error
+[2012-12-13 23:34:08] [SERVER] The maybe backup server is operating.
+[2012-12-13 23:34:08] [SERVER] This servier is listening.
+[2012-12-13 23:34:17] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-13 23:34:17] [SERVER] BACKUP REQUEST START
+[2012-12-13 23:34:17] [ERROR] user.list file open file.
+[2012-12-13 23:34:42] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-13 23:34:42] [SERVER] USER REQUEST START
+[2012-12-13 23:34:42] [SERVER] USER REQIESET END
+[2012-12-13 23:34:45] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-13 23:34:45] [SERVER] BACKUP REQUEST START
+[2012-12-13 23:34:45] [SERVER] there is no directory : 
+[2012-12-13 23:34:45] [SERVER] Set Backup directory : /tmp/backup/montecast/Thu
+[2012-12-13 23:34:45] [SERVER] Get filename from montecast[210.117.182.158] : 2012-12-13.tgz
+
+[2012-12-13 23:36:44] [SERVER] The maybe backup server is operating.
+[2012-12-13 23:36:44] [ERROR] bind error
+[2012-12-13 23:36:52] [SERVER] The maybe backup server is operating.
+[2012-12-13 23:36:52] [SERVER] This servier is listening.
+[2012-12-13 23:37:02] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-13 23:37:02] [SERVER] USER REQUEST START
+[2012-12-13 23:37:02] [SERVER] USER REQIESET END
+[2012-12-13 23:37:08] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-13 23:37:08] [SERVER] BACKUP REQUEST START
+[2012-12-13 23:37:08] [SERVER] there is no directory : 
+[2012-12-13 23:37:08] [SERVER] Set Backup directory : /tmp/backup/montecast/Thu
+[2012-12-13 23:37:08] [SERVER] Get filename from montecast[210.117.182.158] : 2012-12-13.tgz
+
+[2012-12-13 23:37:52] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-13 23:37:52] [SERVER] BACKUP REQUEST START
+[2012-12-13 23:37:52] [SERVER] there is no directory : 
+[2012-12-13 23:37:52] [SERVER] Set Backup directory : /tmp/backup/montecast/Thu
+[2012-12-13 23:37:52] [SERVER] Get filename from montecast[210.117.182.158] : 2012-12-13.tgz
+
+[2012-12-13 23:38:09] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-13 23:38:09] [SERVER] BACKUP REQUEST START
+[2012-12-13 23:38:09] [SERVER] there is no directory : 
+[2012-12-13 23:38:09] [SERVER] Set Backup directory : /tmp/backup/montecast/Thu
+[2012-12-13 23:38:09] [SERVER] Get filename from montecast[210.117.182.158] : 2012-12-13.tgz
+
+[2012-12-13 23:38:19] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-13 23:38:19] [SERVER] BACKUP REQUEST START
+[2012-12-13 23:38:19] [SERVER] there is no directory : 
+[2012-12-13 23:38:19] [SERVER] Set Backup directory : /tmp/backup/montecast/Thu
+[2012-12-13 23:38:19] [SERVER] Get filename from montecast[210.117.182.158] : 2012-12-13.tgz
+
+[2012-12-13 23:38:24] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-13 23:38:24] [SERVER] BACKUP REQUEST START
+[2012-12-13 23:38:24] [SERVER] there is no directory : 
+[2012-12-13 23:38:24] [SERVER] Set Backup directory : /tmp/backup/montecast/Thu
+[2012-12-13 23:38:24] [SERVER] Get filename from montecast[210.117.182.158] : 2012-12-13.tgz
+
+[2012-12-13 23:38:24] [SERVER] file[/tmp/backup/montecast/Thu/2012-12-13.tgz] is uploaded.
+[2012-12-13 23:38:24] [SERVER] Get filename from montecast[210.117.182.158] : backup.2012-12-13.log
+
+[2012-12-13 23:38:24] [SERVER] file[/tmp/backup/montecast/Thu/backup.2012-12-13.log] is uploaded.
+[2012-12-13 23:38:24] [SERVER] BACKUP REQUEST END
+[2012-12-13 23:40:34] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-13 23:40:34] [SERVER] BACKUP REQUEST START
+[2012-12-13 23:40:34] [SERVER] there is no directory : 
+[2012-12-13 23:40:34] [SERVER] Set Backup directory : /tmp/backup/montecast/Thu
+[2012-12-13 23:40:34] [SERVER] Get filename from montecast[210.117.182.158] : 2012-12-13.tgz
+
+[2012-12-13 23:40:38] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-13 23:40:38] [SERVER] BACKUP REQUEST START
+[2012-12-13 23:40:38] [SERVER] there is no directory : 
+[2012-12-13 23:40:38] [SERVER] Set Backup directory : /tmp/backup/montecast/Thu
+[2012-12-13 23:40:38] [SERVER] Get filename from montecast[210.117.182.158] : 2012-12-13.tgz
+
+[2012-12-13 23:40:40] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-13 23:40:40] [SERVER] BACKUP REQUEST START
+[2012-12-13 23:40:40] [SERVER] there is no directory : 
+[2012-12-13 23:40:40] [SERVER] Set Backup directory : /tmp/backup/montecast/Thu
+[2012-12-13 23:40:40] [SERVER] Get filename from montecast[210.117.182.158] : 2012-12-13.tgz
+
+[2012-12-13 23:40:43] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-13 23:40:43] [SERVER] BACKUP REQUEST START
+[2012-12-13 23:40:43] [SERVER] there is no directory : 
+[2012-12-13 23:40:43] [SERVER] Set Backup directory : /tmp/backup/montecast/Thu
+[2012-12-13 23:40:43] [SERVER] Get filename from montecast[210.117.182.158] : 2012-12-13.tgz
+
+[2012-12-13 23:40:43] [SERVER] file[/tmp/backup/montecast/Thu/2012-12-13.tgz] is uploaded.
+[2012-12-13 23:40:43] [SERVER] Get filename from montecast[210.117.182.158] : backup.2012-12-13.log
+
+[2012-12-13 23:40:43] [SERVER] file[/tmp/backup/montecast/Thu/backup.2012-12-13.log] is uploaded.
+[2012-12-13 23:40:43] [SERVER] BACKUP REQUEST END
+[2012-12-13 23:40:46] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-13 23:40:46] [SERVER] BACKUP REQUEST START
+[2012-12-13 23:40:46] [SERVER] there is no directory : 
+[2012-12-13 23:40:46] [SERVER] Set Backup directory : /tmp/backup/montecast/Thu
+[2012-12-13 23:40:46] [SERVER] Get filename from montecast[210.117.182.158] : 2012-12-13.tgz
+
+[2012-12-13 23:40:46] [SERVER] file[/tmp/backup/montecast/Thu/2012-12-13.tgz] is uploaded.
+[2012-12-13 23:40:46] [SERVER] Get filename from montecast[210.117.182.158] : backup.2012-12-13.log
+
+[2012-12-13 23:40:46] [SERVER] file[/tmp/backup/montecast/Thu/backup.2012-12-13.log] is uploaded.
+[2012-12-13 23:40:46] [SERVER] BACKUP REQUEST END
+[2012-12-13 23:40:49] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-13 23:40:49] [SERVER] BACKUP REQUEST START
+[2012-12-13 23:40:49] [SERVER] there is no directory : 
+[2012-12-13 23:40:49] [SERVER] Set Backup directory : /tmp/backup/montecast/Thu
+[2012-12-13 23:40:49] [SERVER] Get filename from montecast[210.117.182.158] : 2012-12-13.tgz
+
+[2012-12-13 23:40:49] [SERVER] file[/tmp/backup/montecast/Thu/2012-12-13.tgz] is uploaded.
+[2012-12-13 23:40:49] [SERVER] Get filename from montecast[210.117.182.158] : backup.2012-12-13.log
+
+[2012-12-13 23:40:49] [SERVER] file[/tmp/backup/montecast/Thu/backup.2012-12-13.log] is uploaded.
+[2012-12-13 23:40:49] [SERVER] BACKUP REQUEST END
+[2012-12-13 23:40:52] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-13 23:40:52] [SERVER] BACKUP REQUEST START
+[2012-12-13 23:40:52] [SERVER] there is no directory : 
+[2012-12-13 23:40:52] [SERVER] Set Backup directory : /tmp/backup/montecast/Thu
+[2012-12-13 23:40:52] [SERVER] Get filename from montecast[210.117.182.158] : 2012-12-13.tgz
+
+[2012-12-13 23:40:52] [SERVER] file[/tmp/backup/montecast/Thu/2012-12-13.tgz] is uploaded.
+[2012-12-13 23:40:52] [SERVER] Get filename from montecast[210.117.182.158] : backup.2012-12-13.log
+
+[2012-12-13 23:40:52] [SERVER] file[/tmp/backup/montecast/Thu/backup.2012-12-13.log] is uploaded.
+[2012-12-13 23:40:52] [SERVER] BACKUP REQUEST END
+[2012-12-13 23:40:55] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-13 23:40:55] [SERVER] BACKUP REQUEST START
+[2012-12-13 23:40:55] [SERVER] there is no directory : 
+[2012-12-13 23:40:55] [SERVER] Set Backup directory : /tmp/backup/montecast/Thu
+[2012-12-13 23:40:55] [SERVER] Get filename from montecast[210.117.182.158] : 2012-12-13.tgz
+
+[2012-12-14 04:16:36] [SERVER] The maybe backup server is operating.
+[2012-12-14 04:16:36] [SERVER] This servier is listening.
+[2012-12-14 05:30:53] [SERVER] The maybe backup server is operating.
+[2012-12-14 05:30:53] [SERVER] This servier is listening.
+[2012-12-14 07:46:55] [SERVER] The maybe backup server is operating.
+[2012-12-14 07:46:55] [SERVER] This servier is listening.
+[2012-12-14 07:48:03] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-14 07:48:03] [SERVER] USER REQUEST START
+[2012-12-14 07:48:03] [SERVER] USER REQIESET END
+[2012-12-14 07:48:16] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-14 07:48:16] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-14 07:48:16] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-14 07:48:25] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-14 07:48:25] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-14 07:48:25] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-14 07:48:25] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-14 07:48:25] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-14 07:48:25] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-14 07:50:06] [SERVER] this process will be terminated by 2.
+[2012-12-14 08:01:40] [SERVER] The maybe backup server is operating.
+[2012-12-14 08:01:40] [SERVER] This servier is listening.
+[2012-12-14 08:03:14] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-14 08:03:15] [SERVER] USER REQUEST START
+[2012-12-14 08:03:15] [SERVER] USER REQIESET END
+[2012-12-14 08:03:46] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-14 08:03:46] [SERVER] USER REQUEST START
+[2012-12-14 08:03:46] [SERVER] USER REQIESET END
+[2012-12-14 08:03:55] [SERVER] client[210.117.182.158] is connected.
+
+[2012-12-14 08:03:55] [SERVER] USER REQUEST START
+[2012-12-14 08:03:55] [SERVER] USER REQIESET END
+[2012-12-14 08:04:04] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-14 08:04:04] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-14 08:04:04] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-14 08:05:03] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-14 08:05:03] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-14 08:05:03] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-14 08:05:03] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-14 08:05:03] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-14 08:05:03] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-14 08:11:51] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-14 08:11:51] [SERVER] USER REQUEST START
+[2012-12-14 08:11:51] [SERVER] The client is already enrolled.
+[2012-12-14 08:11:51] [SERVER] USER REQIESET END
+[2012-12-14 08:12:05] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-14 08:12:05] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-14 08:12:05] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-14 08:12:25] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-14 08:12:25] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-14 08:12:25] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-14 08:12:25] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-14 08:12:25] [SERVER] client[210.117.182.157] is connected.
+
+[2012-12-14 08:12:25] [SERVER] client[210.117.182.157] is connected.
+

@@ -22,7 +22,7 @@
 #define FALSE 0
 #define STL "BACKUP_SHUTTLE"
 #define ERR "ERROR"
-#define DEBUG 0
+#define DEBUG 1 
 
 #define BACKUP_CONF "../conf/backup.conf"
 #define SHUTTLE_LOG_PATH "../log/backup_shuttle.log"
@@ -66,6 +66,7 @@ void set_env()
 }
 
 int main(int argc, char* argv[]){
+	FILE* fp;
 	struct sockaddr_in serv_addr;
 	int port, len;
 	int server_fd, request, response;
@@ -77,7 +78,10 @@ int main(int argc, char* argv[]){
 	DIR* dp;
 	struct dirent* dent;
 	const int endQ = -1;
-	int fid;
+	int fid, fsize, fsize2, nsize, fpsize, fpsize2;
+	int tlen, i, rlen;
+
+	int Q;
 		
 	if(argc != 4){
 		fprintf(stderr, "Argument Error : ./backup_shuttle user Sun yyyy-mm-dd\n");
@@ -110,23 +114,28 @@ int main(int argc, char* argv[]){
 	request = BACKUP_REQUEST;
 	
 	//USER_REQUEST START
+	request = htonl(request);	
 	write(server_fd, &request, sizeof(request));
 	
 	//printf("%s\n", user);
 	//Write user
 	len = strlen(user) + 1;
-	write(server_fd, &len, sizeof(len));	
+	tlen = htonl(len);//
+	write(server_fd, &tlen, sizeof(tlen));	
 	write(server_fd, user, len);
 
 	read(server_fd, &response, sizeof(response));
+	response = ntohl(response);
 
 	if(response){	
 		//send file in directory
 		len = strlen(day) + 1;
-		write(server_fd, &len, sizeof(len));
+		tlen = htonl(len);//
+		write(server_fd, &tlen, sizeof(tlen));//
 		write(server_fd, day, len);
 		len = strlen(date) + 1;
-		write(server_fd, &len, sizeof(len));
+		tlen = htonl(len);//
+		write(server_fd, &tlen, sizeof(tlen));//
 		write(server_fd, date, len);
 		
 		sprintf(backup_dir, "%s/%s", backup_dir, day);
@@ -145,10 +154,43 @@ int main(int argc, char* argv[]){
 
 			sprintf(filepath, "%s/%s", backup_dir, dent->d_name);
 			len = strlen(dent->d_name) + 1;
-			write(server_fd, &len, sizeof(len));
+			tlen = htonl(len); //
+			write(server_fd, &tlen, sizeof(tlen));
 			write(server_fd, dent->d_name, len);
 
+			fp = fopen(filepath, "rb");
+			fseek(fp, 0, SEEK_END);
+			fsize = ftell(fp);
+			fseek(fp, 0, SEEK_SET);
+			fsize2 = htonl(fsize);
+			printf("file size :%d\n", fsize);
+			if( (len = send(server_fd, &fsize2, sizeof(fsize), 0) < 0)){
+				perror("send");
+				exit(1);
+			}
+			i = 0;
+			nsize = 0;
+			while(nsize != fsize){
+				if((len = fread(buf, 1, 4048, fp)) == 0){
+					//perror("fread");
+					break;
+				}
+				nsize += len;
+				printf("file size = %d, seq : %d, now_size : %d, send_size : %d\n", fsize, i++, nsize, len);
 
+				//fpsize2 = htonl(fpsize);
+				//send(server_fd, &fpsize2, sizeof(fpsize), 0);
+
+				if((len = send(server_fd, buf, len, 0)) < 0){
+					perror("send2");
+					exit(1);
+				}
+			}
+			Q = htonl(endQ);
+			send(server_fd, &Q, sizeof(Q), 0);
+			fclose(fp);
+			//exit(1);
+			/*
 			if((fid = open(filepath, O_RDONLY)) < 0){
 				sprintf(log_buf, "open file fail : %s", filepath);
 				logger(ERR, log_buf);
@@ -158,22 +200,50 @@ int main(int argc, char* argv[]){
 			sprintf(log_buf, "file is ready : %s", filepath);
 			logger(STL, log_buf);
 
+			
+			
+			i = 0;
 			while( (len = read(fid, buf, sizeof(buf))) > 0){
 #if DEBUG
-				printf("len : %d\n", len);
+				printf("len : %d %d %d\n", i++, len, htonl(len));
 #endif
-				write(server_fd, &len, sizeof(len));
-				write(server_fd, buf, len);
-			}
+				rlen = len;
+				tlen = htonl(len);//
+					
+				if(write(server_fd, &tlen, sizeof(tlen)) < 0){
+					perror("write");
+					exit(1);
+				}		
+				if(write(server_fd, buf, len) < 0){
+					perror("write");
+					exit(1);
+				}
+				if( (len = send(server_fd, &tlen, sizeof(tlen), 0)) != sizeof(tlen)){
+					perror("send");
+					exit(1);
+				}
 
-			write(server_fd, &endQ, sizeof(endQ));
+
+				while( (len = send(server_fd, buf, rlen, 0)) != rlen){
+					perror("send");
+					//exit(1);
+				}
+			}
+		
+
+			tlen = htonl(endQ);//
+			//write(server_fd, &tlen, sizeof(tlen));//
+			send(server_fd, &tlen, sizeof(tlen), 0);
+			
 			if(fid) close(fid);
 			sprintf(log_buf, "file is uploaded : %s", filepath);
 			logger(STL, log_buf);
+			*/
 		}
 
 		if(dp) closedir(dp);
-		write(server_fd, &endQ, sizeof(endQ));
+		tlen = htonl(endQ);
+		write(server_fd, &tlen, sizeof(tlen));
 	}else{		
 		//authen fail
 		logger(ERR, "user is invalid. backup shuttle fail.");

@@ -68,11 +68,14 @@ void set_env()
 
 int main(int argc, char* argv[]){
 	struct sockaddr_in serv_addr;
-	int port, len;
-	int server_fd, request, response;
+	int port, len, nlen;
+	int server_fd, request, resp, nresp;
+	const int ALREADY = 3;
+	const int DUP = 4;
 	FILE* fp;
+	int tlen;
 	char user[STR_MAX];
-		
+	tlen = 0;
 	if(argc != 2){
 		fprintf(stderr, "Argument Error : ./user_shuttle user\n");
 		exit(1);
@@ -102,33 +105,36 @@ int main(int argc, char* argv[]){
 
 	logger(STL, "USER REQUEST START");
 	request = USER_REQUEST;
-	
+	request = htonl(request);
 	write(server_fd, &request, sizeof(request));
 
-	//READ FROM SERVER
-	read(server_fd, &response, sizeof(response));
+	len = strlen(user) + 1;
+	nlen = htonl(len);
+	write(server_fd, &nlen, sizeof(nlen));
+	write(server_fd, user, len);
 
-	if(response == FALSE){
-		printf("You are already enrolled in the host.\n");
-		logger(STL, "This host is already enrolled.");
-		logger(STL, "USER REQUEST END");
+	//READ FROM SERVER
+	read(server_fd, &nresp, sizeof(nresp));
+	resp = ntohl(nresp);
+
+	if(resp == TRUE){
+		;
+	}else if(resp == ALREADY){
+		read(server_fd, &nlen, sizeof(nlen));
+		len = ntohl(nlen);
+		read(server_fd, user, len);
+		printf("Your host is already enrolled. The syatem will use the before ID : %s\n", user);
+	}else if(resp == DUP){
+		printf("You cann't register the duplecated ID. Use another ID.\n");
 		if(server_fd) close(server_fd);
 		exit(1);
 	}
 
-	len = strlen(user)+1;
-	write(server_fd, &len, sizeof(len));
-	write(server_fd, user, len);
-	
-	read(server_fd, &response, sizeof(response));
-
-	if(response == TRUE){
-		logger(STL, "Complete to add user.");
-		fp = fopen(USER_CONF, "w");
-		fprintf(fp, "%s", user);
-		fclose(fp);
-		printf("Complete to add user. Your ID is %s\n", user);
-	}
+	logger(STL, "Complete to add user.");
+	fp = fopen(USER_CONF, "w");
+	fprintf(fp, "%s", user);
+	fclose(fp);
+	printf("Complete to add user. Your ID is %s\n", user);	
 	
 	logger(STL, "USER REQUEST END");
 	if(server_fd) close(server_fd);

@@ -84,7 +84,7 @@ function check_dir()
 	then
 		logger "$SHL" "Make directory:$_PATH"
 		mkdir "$_PATH"
-		chmod 655 "$_PATH"
+		chmod 755 "$_PATH"
 	fi
 }
 
@@ -137,7 +137,7 @@ function full_backup()
 	#just execution dosen't work. I have to figure it out.
 	eval "$CMD" > "$LOG_PATH"
 
-	chmod 600 "$BACKUP_FILE"
+	chmod 755 "$BACKUP_FILE"
 
 	echo `date +%Y-%m-%d` > "$BACKUP_DIR/FULL"
 
@@ -176,7 +176,7 @@ function incremental_backup()
 
 	eval "$CMD"
 
-	chmod 600 "$BACKUP_FILE"
+	chmod 755 "$BACKUP_FILE"
 
 	echo `date +%Y-%m-%d` > "$BACKUP_DIR/B_DATE"
 

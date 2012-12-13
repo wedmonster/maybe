@@ -33,7 +33,7 @@ int main(int argc, char* argv[])
 	LOG = argv[2];
 	FILE_PATH = argv[3];
 
-	if((fd = open(FILE_PATH, O_CREAT | O_WRONLY | O_APPEND, 0600)) < 0){
+	if((fd = open(FILE_PATH, O_CREAT | O_WRONLY | O_APPEND, 0755)) < 0){
 		perror("open");
 		exit(1);
 	}

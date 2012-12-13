@@ -14,7 +14,7 @@
 #include <sys/stat.h>
 
 //#define PORT 9004
-#define BUF_MAX 8094
+#define BUF_MAX 8096
 #define STR_MAX 256
 #define BACKUP_REQUEST 100
 #define RECOVERY_REQUEST 101
@@ -23,7 +23,7 @@
 #define FALSE 0
 #define STL "RECOVERY_SHUTTLE"
 #define ERR "ERROR"
-#define DEBUG 1
+#define DEBUG 0
 
 #define BACKUP_CONF "../conf/backup.conf"
 #define RECOV_DIR "../rec"
@@ -51,7 +51,7 @@ void remove_create_dir(char* path)
 		system(cmd);
 	}
 
-	mkdir(path, 0744);
+	mkdir(path, 0755);
 
    if(dp) closedir(dp);
 }
@@ -102,6 +102,9 @@ int main(int argc, char* argv[]){
 	//struct dirent* dent;
 	const int endQ = -1;
 	int fid;
+	int Q, tlen;
+	Q = endQ;
+	tlen = 0;
 		
 	if(argc != 3){
 		fprintf(stderr, "Argument Error : ./recovery_shuttle user yyyy-mm-dd\n");
@@ -132,15 +135,20 @@ int main(int argc, char* argv[]){
 	request = RECOVERY_REQUEST;
 	
 	//RECOVERY_REQUEST START
+	request = htonl(request);//
 	write(server_fd, &request, sizeof(request));
 	
 	//printf("%s\n", user);
 	//Write user
 	len = strlen(user) + 1;
-	write(server_fd, &len, sizeof(len));	
+	tlen = htonl(len);//
+	printf("%d %d %s\n", len, tlen, user);
+	write(server_fd, &tlen, sizeof(tlen));	
 	write(server_fd, user, len);
 
+
 	read(server_fd, &response, sizeof(response));
+	response = ntohl(response);
 
 	if(response){	
 		//send file in directory
@@ -150,30 +158,44 @@ int main(int argc, char* argv[]){
 		fp = fopen(RECOV_LIST_PATH, "w");
 
 		len = strlen(date) + 1;
-		write(server_fd, &len, sizeof(len));
+		tlen = htonl(len);
+		printf("%d %d %s\n", len, tlen, date);
+		write(server_fd, &tlen, sizeof(tlen));
 		write(server_fd, date, len);
 		
 		while(TRUE){
 			read(server_fd, &len, sizeof(len));
-			if(len == endQ) break;
-			read(server_fd, filename, len);
+
+			tlen = ntohl(len);
+
+			if(tlen == endQ) break;
+			read(server_fd, filename, tlen);
+			
+			printf("%d %d %s\n", len, tlen, filename);
+
 			fprintf(fp, "%s\n", filename);
 			//printf("get file : %s\n", filename);
 			sprintf(filepath, "%s/%s", RECOV_DIR, filename);
 
 
-			if( (fid = open(filepath, O_CREAT | O_WRONLY | O_TRUNC, 0600)) < 0){
+			if( (fid = open(filepath, O_CREAT | O_WRONLY | O_TRUNC, 0755)) < 0){
 				logger(ERR, "open error");
 				exit(1);
 			}
 
 			while(TRUE){
 				read(server_fd, &len, sizeof(len));
+				printf("%d %d\n", len, ntohl(len));
+				len = ntohl(len);//
+#if DEBUG
+				printf("%d\n", len);
+#endif
 				if(len == endQ) break;
 				
 				read(server_fd, buf, len);
 				write(fid, buf, len);
 			}
+			if(fid) close(fid);
 		}
 		if(fp) fclose(fp);
 	}else{		

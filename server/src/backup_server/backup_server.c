@@ -17,7 +17,9 @@
 #include <time.h>
 
 //#define PORT 9004
-#define BUFSIZE 8096
+#define BUFSIZE 8094
+#define BUF_MAX 8094
+#define RBUFMAX 9000
 #define MAX 1024
 #define STR_MAX 258
 #define SVR "SERVER"
@@ -27,6 +29,9 @@
 #define BACKUP_REQUEST 100
 #define RECOVERY_REQUEST 101
 #define USER_REQUEST 102
+#define FILE_SENDER_REQUEST 103
+#define FILE_GETTER_REQUEST 104
+#define BACKUP_COMPLETE_REQUEST 105
 
 #define USER_LIST_PATH "../conf/user.list"
 //#define BACKUP_DIR "/tmp/backup"
@@ -35,7 +40,7 @@
 //#define MAIL_RCPT "montecast9@gmail.com"
 #define MAIL_PATH "../mail/mail.content"
 
-#define DEBUG  0
+#define DEBUG 1 
 #define ADAYSEC 86400
 
 int PORT;
@@ -62,8 +67,14 @@ void set_env()
 	while(fgets(buf, sizeof(buf), fp)){
 		if(buf[0] == '\n' || buf[0] == '#') continue;
 		sscanf(buf, "%s %s", key, val);
-		if(strcmp(key, "@Email") == 0)
+		if(strcmp(key, "@Email") == 0){
+			if(strlen(val) < 2){
+				printf("If you wanna get backup log mail, config your email in ../conf/server.con\n");	
+				printf("And you have to install and configure sendmail to use mail feature.\n");
+				printf("You can reference the way at http://m2k2.tistory.com/43\n");
+			}
 			strcpy(MAIL_RCPT, val);
+		}
 		else if(strcmp(key, "@BackupDir") == 0)
 	      strcpy(BACKUP_DIR, val);
 		else if(strcmp(key, "@BackupServerPort") == 0)
@@ -154,176 +165,386 @@ void getWeekDay(char* date, char* day)
 	strcpy(day, buf);
 }
 
-//@see Design-page 9
-void handle_recovery_req(int sd, char* clientIP){
-	char buf[BUFSIZE];
-	char log_buf[STR_MAX];
-	char user[STR_MAX];
+
+void handler_file_getter_req(int sd, char* clientIP){
+	char user[STR_MAX], buf[BUF_MAX], date[12], day[4];
 	char filename[STR_MAX];
-	char filepath[STR_MAX];
-	char backup_dir_path[STR_MAX];
-	char day[4];
-	char date[12];
-	char date_list[8][12];
-	unsigned int d_list_idx;
-	unsigned int i;
-	//char cmd[STR_MAX];
-	int response, len, fid;
-	const int endQ = -1;
-
-	logger(SVR, "RECOVERY REQUEST START");
-
-	read(sd, &len, sizeof(len));
-	read(sd, user, len);
-	
-	response = isMatch(user, clientIP);
-	write(sd, &response, sizeof(response));
-
-	sprintf(backup_dir_path, "%s/%s", BACKUP_DIR, user);
-	logger(SVR, "set path");
-
-	if(response){
-		//get file
-		read(sd, &len, sizeof(len));
-		read(sd, date, len);
-		
-		d_list_idx = 0;
-		d_list_idx = getDateList(date, date_list);
-		
-		for(i = 0; i <= d_list_idx; i++){
-			getWeekDay(date_list[i], day);
-			sprintf(filename, "%s.tgz", date_list[i]);
-			sprintf(filepath, "%s/%s/%s", backup_dir_path, day, filename);
-			
-			if( (fid = open(filepath, O_RDONLY)) < 0){
-				sprintf(log_buf, "There is no File : %s\n", filepath);
-				logger(SVR, log_buf);
-				continue;
-			}
-
-			//transmit file if it exist
-
-			len = strlen(filename) + 1;
-			write(sd, &len, sizeof(len));
-			write(sd, filename, len);
-
-			while( (len = read(fid, buf, sizeof(buf))) > 0 ){
-				write(sd, &len, sizeof(len));
-				write(sd, buf, len);
-			}
-			write(sd, &endQ, sizeof(endQ));
-
-			if(fid) close(fid);
-
-		}
-		write(sd, &endQ, sizeof(endQ));		
+	char backup_path[STR_MAX];
+	FILE* fp;
+	int rlen, len, slen, nlen;
+	int nfsize, fsize, cfsize;
+	int nresp, resp;
+	/******************************************************
+	**	start getting user
+	*******************************************************/
+	if((rlen = recv(sd, &nlen, sizeof(nlen), 0)) < 0){
+		perror("get user's len| recv : ");
+		exit(1);
 	}
 
-	logger(SVR, "RECOVERY REQUEST END");
-	if(sd) close(sd);
-	exit(1);
-
-}
-
-void handle_backup_req(int sd, char* clientIP){
-	char buf[BUFSIZE];
-	char log_buf[STR_MAX];
-	char user[STR_MAX];
-	char filename[STR_MAX];
-	char filepath[STR_MAX];
-	char backup_dir_path[STR_MAX];
-	char day[4];
-	char date[12];
-	char subject[STR_MAX];
-	char cmd[STR_MAX];
-	int response, len, fid;
-	const int endQ = -1;
-
-	logger(SVR, "BACKUP REQUEST START");
-
-	read(sd, &len, sizeof(len));
-	read(sd, user, len);
-	
-	response = isMatch(user, clientIP);
-	write(sd, &response, sizeof(response));
-
-	if(response){
-		//get file
-		read(sd, &len, sizeof(len));
-		read(sd, day, len);
-
-		read(sd, &len, sizeof(len));
-		read(sd, date, len);
-
-		check_create_dir(backup_dir_path);
-		sprintf(backup_dir_path, "%s/%s", BACKUP_DIR, user);
-		check_create_dir(backup_dir_path);
-		sprintf(backup_dir_path, "%s/%s", backup_dir_path, day);
-		check_create_dir(backup_dir_path);
-		sprintf(log_buf, "Set Backup directory : %s", backup_dir_path);
-		logger(SVR, log_buf);
-		
-		//check and create directory
-		
-		while(TRUE){
-			read(sd, &len, sizeof(len));
-			if(len == endQ) break;
-			read(sd, filename, len);
-#if DEBUE
-			printf("filename : %s\n", filename);		
+	len = ntohl(nlen);
+	if((rlen = recv(sd, buf, len, 0)) < 0){
+		perror("get user str| recv : ");
+		exit(1);
+	}
+	strcpy(user, buf);
+#if DEBUG
+	printf("ip : %s, user : %s, len : %d\n", clientIP, user, len);
 #endif
-			sprintf(log_buf, "Get filename from %s[%s] : %s\n", user, clientIP, filename);
-			logger(SVR, log_buf);
 
-			sprintf(filepath, "%s/%s", backup_dir_path, filename);
-			if( (fid = open(filepath, O_CREAT | O_WRONLY | O_TRUNC, 0700)) < 0 ){
-				sprintf(log_buf, "file open fail : %s", filepath);
-				logger(ERR, log_buf);
+	/******************************************************
+	** end getting user, check user
+	*******************************************************/
+
+	resp = isMatch(user, clientIP);
+		
+	nresp = htonl(resp);
+	if((slen = send(sd, &nresp, sizeof(nresp), 0)) < 0){
+		perror("send resp | send : ");
+		exit(1);
+	}
+
+	if(resp){
+		/***************************************************
+		** get date, filename and filezie
+		****************************************************/
+		//date lenth
+		if((rlen = recv(sd, &nlen, sizeof(nlen), 0)) < 0){
+			perror("get date's lne | recv : ");
+			exit(1);
+		}
+		len = ntohl(nlen);
+
+		//date
+		if((rlen = recv(sd, buf, len, 0)) < 0){
+			perror("get date | recv : ");
+			exit(1);
+		}
+		strcpy(date, buf);
+
+		//filename length
+		if((rlen = recv(sd, &nlen, sizeof(nlen), 0)) < 0){
+			perror("get filename's len | recv : ");
+			exit(1);
+		}
+		len = ntohl(nlen);
+
+		//filename
+		if((rlen = recv(sd, buf, len, 0)) < 0){
+			perror("get filename | recv : ");
+			exit(1);
+		}
+
+		strcpy(filename, buf);
+
+#if DEBUG
+		printf("date : %s, len : %d, filename : %s, len : %d.\n", date, strlen(date), filename, strlen(filename));
+#endif
+
+		getWeekDay(date, day);
+
+		/**************************************************
+		** set filepath and check existence
+		***************************************************/
+		sprintf(backup_path, "%s/%s/%s/%s", BACKUP_DIR, user, day, filename);
+
+		resp = TRUE;
+		if((fp = fopen(backup_path, "r")) == NULL){
+			resp = FALSE;
+			perror("file open fail | open : ");
+		}
+
+		nresp = htonl(resp);
+		if((slen = send(sd, &nresp, sizeof(nresp), 0)) < 0){
+			perror("resp send | send : ");
+			exit(1);
+		}
+		
+		/***************************************************
+		** if file exists, then send file
+		***************************************************/
+		if(resp){			
+			fseek(fp, 0, SEEK_END);
+			fsize = ftell(fp);
+			fseek(fp, 0, SEEK_SET);
+
+			nfsize = htonl(fsize);
+			if((slen = send(sd, &nfsize, sizeof(nfsize), 0)) < 0){
+				perror("filesize send | send : ");
 				exit(1);
 			}
 			
-			while(TRUE){
-				read(sd, &len, sizeof(len));
-#if DEBUF
-				printf("len %d\n", len);
-#endif
-				if(len == endQ) break;
-				if(read(sd, buf, len) > 0)
-					write(fid, buf, len);
-			}
-			if(fid) close(fid);
-			sprintf(log_buf, "file[%s] is uploaded.", filepath);
-			logger(SVR, log_buf);
 			
-			sprintf(log_buf, "Call: HTMLgen %s %s", user, date);
-			logger(SVR, log_buf);
+			cfsize = 0;
+			while(cfsize < fsize){
+				if((len = fread(buf, 1, sizeof(buf), fp)) == 0){
+					perror("read fail | fread : ");
+					exit(1);
+				}
+				cfsize += len;
+				if((slen = send(sd, buf, len, 0)) < 0){
+					perror("file send | send : ");
+					exit(1);
+				}
+			}
 
-			sprintf(cmd, "./HTMLgen %s %s", user, date);
-#if DEBUF
-			printf("%s\n", cmd);
-#endif	
-			system(cmd);
-
-			sprintf(cmd, "./mail_sender %s %s %s", user, clientIP, date);
-			system(cmd);
-
-			sprintf(subject, "The backup of %s is finish.", user);
-			sprintf(cmd, "mail -s \"$(echo -e \"%s\\nContent-Type: text/html\")\" %s < %s", subject, MAIL_RCPT, MAIL_PATH); 
-
-			system(cmd);
+			/**********************************************
+			** Send file complete
+			***********************************************/
+#if DEBUG
+			printf("Send file Complete\n");
+#endif
+		}else{
+#if DEBUG
+			printf("No file in this server : %s\n", filename);
+#endif
 		}
+		
 	}
 
-	logger(SVR, "BACKUP REQUEST END");
+	/*******************************************************
+	** if the user is invalid or the work is done, close.
+	*******************************************************/
+	if(sd) close(sd);
+	if(fp) fclose(fp);
+	exit(1);
+
+
+
+}
+
+void handler_file_sender_req(int sd, char* clientIP){
+	char user[STR_MAX];
+	char buf[BUF_MAX], filename[STR_MAX], date[12], day[4];
+	char backup_path[STR_MAX];
+	FILE* fp;
+	int rlen, len, slen, nlen;
+	int nfsize, fsize, csize;
+	int nresp, resp;
+	//int fid;
+
+	/******************************************************
+	**	start getting user
+	*******************************************************/
+	if((rlen = recv(sd, &nlen, sizeof(nlen), 0)) < 0){
+		perror("get user's len| recv : ");
+		exit(1);
+	}
+
+	len = ntohl(nlen);
+	if((rlen = recv(sd, buf, len, 0)) < 0){
+		perror("get user str| recv : ");
+		exit(1);
+	}
+	strcpy(user, buf);
+#if DEBUG
+	printf("ip : %s, user : %s, len : %d\n", clientIP, user, len);
+#endif
+
+	/******************************************************
+	** end getting user, check user
+	*******************************************************/
+
+	resp = isMatch(user, clientIP);
+		
+	nresp = htonl(resp);
+	if((slen = send(sd, &nresp, sizeof(nresp), 0)) < 0){
+		perror("send resp | send : ");
+		exit(1);
+	}
+
+	/*******************************************************
+	** if the user is valid, then get a file.
+	********************************************************/
+	if(resp){
+		/***************************************************
+		** get date, filename and filezie
+		****************************************************/
+		//date lenth
+		if((rlen = recv(sd, &nlen, sizeof(nlen), 0)) < 0){
+			perror("get date's lne | recv : ");
+			exit(1);
+		}
+		len = ntohl(nlen);
+
+		//date
+		if((rlen = recv(sd, buf, len, 0)) < 0){
+			perror("get date | recv : ");
+			exit(1);
+		}
+		strcpy(date, buf);
+
+		//filename length
+		if((rlen = recv(sd, &nlen, sizeof(nlen), 0)) < 0){
+			perror("get filename's len | recv : ");
+			exit(1);
+		}
+		len = ntohl(nlen);
+
+		//filename
+		if((rlen = recv(sd, buf, len, 0)) < 0){
+			perror("get filename | recv : ");
+			exit(1);
+		}
+
+		strcpy(filename, buf);
+
+		//filesize
+		if((rlen = recv(sd, &nfsize, sizeof(nfsize), 0)) < 0){
+			perror("get filesize | recv : ");
+			exit(1);
+		}
+		fsize = ntohl(nfsize);
+#if DEBUG
+		printf("date : %s, len : %d, filename : %s, len : %d, filesize : %d.\n", date, strlen(date), filename, strlen(filename), fsize);
+#endif
+
+		getWeekDay(date, day);
+
+		/****************************************************
+		** check directory and set file path
+		****************************************************/
+		//check /tmp/backup
+		sprintf(backup_path, "%s", BACKUP_DIR);
+		check_create_dir(backup_path);
+
+		//check /tmp/backup/user
+		sprintf(backup_path, "%s/%s", backup_path, user);
+		check_create_dir(backup_path);
+
+		//check /tmp/backup/user/day
+		sprintf(backup_path, "%s/%s", backup_path, day);
+		check_create_dir(backup_path);
+
+		sprintf(backup_path, "%s/%s", backup_path, filename);
+#if DEBUG
+		printf("filepath : %s\n", backup_path);
+#endif
+		/****************************************************
+		** open the file and get the file from cli
+		****************************************************/
+
+		if((fp = fopen(backup_path, "w")) == NULL){
+			perror("file open : ");
+			exit(1);
+		}
+
+		//if((fid = open(backup_path, O_CREAT | O_WRONLY | O_TRUCATE | 0644)) < 0){
+		//	perror("file open : ");
+		//	exit(1);
+		//}
+
+		csize = 0;
+		while(csize < fsize){
+			if((rlen = recv(sd, buf, sizeof(buf), 0)) < 0){
+				perror("get file buf | recv : ");
+				exit(1);
+			}
+			csize += rlen;
+			fwrite(buf, 1, rlen, fp);
+			
+		}
+		/***************************************************
+		** getting file is finish
+		****************************************************/
+#if DEBUG
+		printf("File transmission complete\n");
+#endif
+
+		if(fp) fclose(fp);
+	}
+	
+	/*******************************************************
+	** if the user is invalid or the work is done, close.
+	*******************************************************/
 	if(sd) close(sd);
 	exit(1);
 
 }
+
+void handler_backup_complete_req(int sd, char* clientIP){
+	char user[STR_MAX], subject[STR_MAX];
+	char date[12], day[4], cmd[STR_MAX], buf[BUF_MAX];;
+	int resp, nresp;
+	int len, nlen, rlen, slen;
+	/******************************************************
+	**	start getting user
+	*******************************************************/
+	if((rlen = recv(sd, &nlen, sizeof(nlen), 0)) < 0){
+		perror("get user's len| recv : ");
+		exit(1);
+	}
+
+	len = ntohl(nlen);
+	if((rlen = recv(sd, buf, len, 0)) < 0){
+		perror("get user str| recv : ");
+		exit(1);
+	}
+	strcpy(user, buf);
+#if DEBUG
+	printf("ip : %s, user : %s, len : %d\n", clientIP, user, len);
+#endif
+
+	/******************************************************
+	** end getting user, check user
+	*******************************************************/
+
+	resp = isMatch(user, clientIP);
+		
+	nresp = htonl(resp);
+	if((slen = send(sd, &nresp, sizeof(nresp), 0)) < 0){
+		perror("send resp | send : ");
+		exit(1);
+	}
+
+	if(resp){
+		/***************************************************
+		** get date, filename and filezie
+		****************************************************/
+		//date lenth
+		if((rlen = recv(sd, &nlen, sizeof(nlen), 0)) < 0){
+			perror("get date's lne | recv : ");
+			exit(1);
+		}
+		len = ntohl(nlen);
+
+		//date
+		if((rlen = recv(sd, buf, len, 0)) < 0){
+			perror("get date | recv : ");
+			exit(1);
+		}
+		strcpy(date, buf);
+
+		getWeekDay(date, day);
+#if DEBUG
+		printf("user %s date %s.\n", user, date);
+#endif
+
+		sprintf(cmd, "./HTMLgen %s %s", user, date);
+		system(cmd);
+
+		sprintf(cmd, "./mail_sender %s %s %s", user, clientIP, date);
+		system(cmd);
+
+		sprintf(subject, "The backup of %s is finish.", user);
+		sprintf(cmd, "mail -s \"$(echo -e \"%s\\nContent-Type: text/html\")\" %s < %s", subject, MAIL_RCPT, MAIL_PATH);
+		system(cmd);
+
+	}
+
+	if(sd) close(sd);
+}
+
 void handle_user_req(int sd, char* clientIP){
 	char ip[17], user[STR_MAX];
+	char _user[STR_MAX];
 	char buf[STR_MAX];
 	FILE* fp;
-	int response, len;
+	int resp, len, nresp, nlen;
+	int tlen;
+	const int ALREADY = 3;
+	const int DUP = 4;
+	tlen = 0;
 
 	logger(SVR, "USER REQUEST START");
 	
@@ -332,28 +553,41 @@ void handle_user_req(int sd, char* clientIP){
 		exit(1);
 	}
 	fseek(fp, 0, SEEK_SET);
-	response = TRUE;
+	
+	read(sd, &nlen, sizeof(nlen));
+	len = ntohl(nlen);
+	read(sd, user, len);
+
+	resp = TRUE;
 	while(fgets(buf, sizeof(buf), fp)){
-		sscanf(buf, "%s %s", user, ip);
+		sscanf(buf, "%s %s", _user, ip);
 		if(strcmp(ip, clientIP) == 0){
+			printf("The client is already enrolled. %s\n", _user);
 			logger(SVR, "The client is already enrolled.");
-			response = FALSE;
+			resp = ALREADY;
 			break;
 		}
+		if(strcmp(user, _user) == 0){
+			printf("ID is duplicated. %s\n", user);
+			resp = DUP;
+			break;
+		}		
 	}
 	//true or false response
-	write(sd, &response, sizeof(response));
+	nresp = htonl(resp);//
+	write(sd, &nresp, sizeof(nresp));
 
-	if(response == TRUE){
-		read(sd, &len, sizeof(len));
-		read(sd, user, len);
-
+	if(resp == TRUE){
 		fseek(fp, 0, SEEK_END);
-		fprintf(fp, "%s %s\n", user, clientIP);
-		response = TRUE;
-		write(sd, &response, sizeof(response));
+		fprintf(fp, "%s %s\n", user, clientIP);		
+	}else if(resp == ALREADY){
+		len = strlen(_user) + 1;
+		nlen = htonl(len);
+		write(sd, &nlen, sizeof(nlen));
+		write(sd, _user, len);
 	}
 	
+	logger(SVR, "USER REQIESET END");
 	if(fp) fclose(fp);
 	if(sd) close(sd);
 }
@@ -439,17 +673,21 @@ int main()
 			sprintf(buf, "client[%s] is connected.\n", clientIP);
 			logger(SVR, buf);
 	
-
 			read(socketfd, &request, sizeof(request));
+			request = ntohl(request);
+
 			switch(request){
 			case USER_REQUEST:				
 				handle_user_req(socketfd, clientIP);
 				break;
-			case BACKUP_REQUEST:
-				handle_backup_req(socketfd, clientIP);
+			case FILE_SENDER_REQUEST:
+				handler_file_sender_req(socketfd, clientIP);
 				break;
-			case RECOVERY_REQUEST:
-				handle_recovery_req(socketfd, clientIP);
+			case FILE_GETTER_REQUEST:
+				handler_file_getter_req(socketfd, clientIP);
+				break;
+			case BACKUP_COMPLETE_REQUEST:
+				handler_backup_complete_req(socketfd, clientIP);
 				break;
 			}
 			

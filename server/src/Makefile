@@ -1,4 +1,4 @@
-all: clean LOGGER WEB_SERVER HTML_GEN BACKUP_SERVER MAIL_SENDER
+all: clean LOGGER WEB_SERVER HTML_GEN BACKUP_SERVER MAIL_SENDER 
 
 clean:
 	rm -f ./bin/logger ./bin/backup_server ./bin/web_server ./bin/HTMLgen
@@ -18,10 +18,14 @@ HTML_GEN:
 MAIL_SENDER:
 	gcc -W -Wall -o ./bin/mail_sender ./mail_sender/mail_sender.c -D _XOPEN_SOURCE
 
+
 release: all
 	rm -rf ../html ../bin ../mail ../conf
 	mkdir ../html ../bin ../mail ../conf
 	\cp -rf ./html/index.html ../html
 	\cp -rf ./conf/* ../conf/
 	\cp -f ./bin/*	../bin/
+	rm -rf ../conf/user.list
+	rm -rf ../conf/server.conf
+	\cp -f ./tmp/server.conf ../conf/server.conf
 

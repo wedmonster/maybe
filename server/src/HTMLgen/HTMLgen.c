@@ -23,7 +23,7 @@ void check_create_dir(char* path)
 //	char log_buf[MAX];
 
 	if((dp = opendir(path)) == NULL){
-		mkdir(path, 0644);
+		mkdir(path, 0755);
 	}
 	if(dp) closedir(dp);
 }
